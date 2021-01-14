@@ -1,0 +1,7 @@
+exclude_paths:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - sonar-project.properties
+  - .deepsource.toml
+  - build_wrapper_output_directory/**
