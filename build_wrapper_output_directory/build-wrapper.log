@@ -1,242 +1,213 @@
-Thu Jan 14 22:05:29 2021: build-wrapper, version 6.16 (linux-x86)
-Thu Jan 14 22:05:29 2021: System name: Linux Nodename: pruiz Release: 4.15.0-130-generic Version: #134-Ubuntu SMP Tue Jan 5 20:46:26 UTC 2021 Machine: x86_64
-Thu Jan 14 22:05:29 2021: socket path: /tmp/build-wrapper-socket.vbea61
-Thu Jan 14 22:05:29 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-i686.so
-Thu Jan 14 22:05:29 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-x86_64.so
-Thu Jan 14 22:05:29 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-haswell.so
-Thu Jan 14 22:05:29 2021: command executed as: <build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:29 2021: command line received: <make clean all>
-Thu Jan 14 22:05:29 2021: env 0: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:29 2021: env 1: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:29 2021: env 2: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:29 2021: env 3: <ARCH=x86_64>
-Thu Jan 14 22:05:29 2021: env 4: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:29 2021: env 5: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:29 2021: env 6: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:29 2021: env 7: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:29 2021: env 8: <DISPLAY=:0>
-Thu Jan 14 22:05:29 2021: env 9: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:29 2021: env 10: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:29 2021: env 11: <COLORTERM=truecolor>
-Thu Jan 14 22:05:29 2021: env 12: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:29 2021: env 13: <USERNAME=pruiz>
-Thu Jan 14 22:05:29 2021: env 14: <XDG_VTNR=2>
-Thu Jan 14 22:05:29 2021: env 15: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:29 2021: env 16: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:29 2021: env 17: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:29 2021: env 18: <S_COLORS=auto>
-Thu Jan 14 22:05:29 2021: env 19: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:29 2021: env 20: <USER=pruiz>
-Thu Jan 14 22:05:29 2021: env 21: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:29 2021: env 22: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:29 2021: env 23: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:29 2021: env 24: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:29 2021: env 25: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:29 2021: env 26: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:29 2021: env 27: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: env 28: <HOME=/home/pruiz>
-Thu Jan 14 22:05:29 2021: env 29: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:29 2021: env 30: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:29 2021: env 31: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:29 2021: env 32: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:29 2021: env 33: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:29 2021: env 34: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:29 2021: env 35: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:29 2021: env 36: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:29 2021: env 37: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:29 2021: env 38: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:29 2021: env 39: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:29 2021: env 40: <WINDOWPATH=2>
-Thu Jan 14 22:05:29 2021: env 41: <VTE_VERSION=5202>
-Thu Jan 14 22:05:29 2021: env 42: <SHELL=/bin/bash>
-Thu Jan 14 22:05:29 2021: env 43: <TERM=xterm-256color>
-Thu Jan 14 22:05:29 2021: env 44: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:29 2021: env 45: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:29 2021: env 46: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:29 2021: env 47: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:29 2021: env 48: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:29 2021: env 49: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:29 2021: env 50: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:29 2021: env 51: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:29 2021: env 52: <SHLVL=1>
-Thu Jan 14 22:05:29 2021: env 53: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:29 2021: env 54: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:29 2021: env 55: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:29 2021: env 56: <LOGNAME=pruiz>
-Thu Jan 14 22:05:29 2021: env 57: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:29 2021: env 58: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:29 2021: env 59: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:29 2021: env 60: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:29 2021: env 61: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:29 2021: env 62: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:29 2021: env 63: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:29 2021: env 64: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:29 2021: env 65: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:29 2021: env 66: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:29 2021: env 67: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:29 2021: env 68: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:29 2021: executing: <make clean all>
-Thu Jan 14 22:05:29 2021: initializing json file
-Thu Jan 14 22:05:29 2021: process created with pid: 10717
-Thu Jan 14 22:05:29 2021: parent pid: 10716
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:29 2021: argv[0]: <build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <>
-Thu Jan 14 22:05:29 2021: argv[3]: <make>
-Thu Jan 14 22:05:29 2021: argv[4]: <clean>
-Thu Jan 14 22:05:29 2021: argv[5]: <all>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10717
-Thu Jan 14 22:05:29 2021: process created with pid: 10718
-Thu Jan 14 22:05:29 2021: parent pid: 10717
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </usr/bin/make>
-Thu Jan 14 22:05:29 2021: argv[0]: <make>
-Thu Jan 14 22:05:29 2021: argv[1]: <clean>
-Thu Jan 14 22:05:29 2021: argv[2]: <all>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10718
-Thu Jan 14 22:05:29 2021: process created with pid: 10719
-Thu Jan 14 22:05:29 2021: parent pid: 10718
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </bin/dash>
-Thu Jan 14 22:05:29 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <rm -f *.o mpiDisc>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10719
-Thu Jan 14 22:05:29 2021: process created with pid: 10720
-Thu Jan 14 22:05:29 2021: parent pid: 10719
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </bin/rm>
-Thu Jan 14 22:05:29 2021: argv[0]: <rm>
-Thu Jan 14 22:05:29 2021: argv[1]: <-f>
-Thu Jan 14 22:05:29 2021: argv[2]: <*.o>
-Thu Jan 14 22:05:29 2021: argv[3]: <mpiDisc>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10720
-Thu Jan 14 22:05:29 2021: process created with pid: 10721
-Thu Jan 14 22:05:29 2021: parent pid: 10718
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </bin/dash>
-Thu Jan 14 22:05:29 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <echo "Cleanup complete!">
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10721
-Thu Jan 14 22:05:29 2021: process created with pid: 10722
-Thu Jan 14 22:05:29 2021: parent pid: 10718
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </bin/dash>
-Thu Jan 14 22:05:29 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <mpiCC -c -I.  -o "arbol.o" "arbol.cpp">
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10722
-Thu Jan 14 22:05:29 2021: process created with pid: 10723
-Thu Jan 14 22:05:29 2021: parent pid: 10722
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:29 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:29 2021: argv[3]: <-o>
-Thu Jan 14 22:05:29 2021: argv[4]: <arbol.o>
-Thu Jan 14 22:05:29 2021: argv[5]: <arbol.cpp>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10723
-Thu Jan 14 22:05:29 2021: process created with pid: 10724
-Thu Jan 14 22:05:29 2021: parent pid: 10723
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:29 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:29 2021: argv[1]: <-c>
-Thu Jan 14 22:05:29 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:29 2021: argv[3]: <-o>
-Thu Jan 14 22:05:29 2021: argv[4]: <arbol.o>
-Thu Jan 14 22:05:29 2021: argv[5]: <arbol.cpp>
-Thu Jan 14 22:05:29 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:29 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:29 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:29 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:29 2021: argv[10]: <-pthread>
-Thu Jan 14 22:05:29 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:29 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:29 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:29 2021: envp[3]: <ARCH=x86_64>
-Thu Jan 14 22:05:29 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:29 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:29 2021: envp[6]: <USER=pruiz>
-Thu Jan 14 22:05:29 2021: envp[7]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:29 2021: envp[8]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:29 2021: envp[9]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:29 2021: envp[10]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:29 2021: envp[11]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:29 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:29 2021: envp[13]: <SHLVL=1>
-Thu Jan 14 22:05:29 2021: envp[14]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:29 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:29 2021: envp[16]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:29 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:29 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:29 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:29 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:29 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:29 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:29 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:29 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:29 2021: envp[25]: <MAKEFLAGS=>
-Thu Jan 14 22:05:29 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:29 2021: envp[27]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:29 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:29 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:29 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:29 2021: envp[31]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:29 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:29 2021: envp[33]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:29 2021: envp[34]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:29 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:29 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:29 2021: envp[37]: <USERNAME=pruiz>
-Thu Jan 14 22:05:29 2021: envp[38]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:29 2021: envp[39]: <TERM=xterm-256color>
-Thu Jan 14 22:05:29 2021: envp[40]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:29 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:29 2021: envp[42]: <WINDOWPATH=2>
-Thu Jan 14 22:05:29 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:29 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:29 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:29 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:29 2021: envp[47]: <S_COLORS=auto>
-Thu Jan 14 22:05:29 2021: envp[48]: <MAKELEVEL=1>
-Thu Jan 14 22:05:29 2021: envp[49]: <DISPLAY=:0>
-Thu Jan 14 22:05:29 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:29 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:29 2021: envp[52]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:29 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:29 2021: envp[54]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:29 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:29 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:29 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:29 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:29 2021: envp[59]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:29 2021: envp[60]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:29 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:29 2021: envp[62]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:29 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:29 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:29 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:29 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:29 2021: envp[67]: <XDG_VTNR=2>
-Thu Jan 14 22:05:29 2021: envp[68]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:29 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:29 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:29 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:29 2021: envp[73]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:29 2021: envp[74]: <MFLAGS=>
-Thu Jan 14 22:05:29 2021: envp[75]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:29 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:29 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:29 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:29 2021: Probing C compiler: /usr/bin/x86_64-linux-gnu-g++-7 
-Thu Jan 14 22:05:29 2021: exit code: 0
-Thu Jan 14 22:05:29 2021: stdout:
+Thu Jan 14 22:10:02 2021: build-wrapper, version 6.16 (linux-x86)
+Thu Jan 14 22:10:02 2021: System name: Linux Nodename: pruiz Release: 4.15.0-130-generic Version: #134-Ubuntu SMP Tue Jan 5 20:46:26 UTC 2021 Machine: x86_64
+Thu Jan 14 22:10:02 2021: socket path: /tmp/build-wrapper-socket.VKnkZK
+Thu Jan 14 22:10:02 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-i686.so
+Thu Jan 14 22:10:02 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Thu Jan 14 22:10:02 2021: dynamic library found: /home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-haswell.so
+Thu Jan 14 22:10:02 2021: command executed as: <build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:02 2021: command line received: <make>
+Thu Jan 14 22:10:02 2021: env 0: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:02 2021: env 1: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:02 2021: env 2: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:02 2021: env 3: <ARCH=x86_64>
+Thu Jan 14 22:10:02 2021: env 4: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:02 2021: env 5: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:02 2021: env 6: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:02 2021: env 7: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:02 2021: env 8: <DISPLAY=:0>
+Thu Jan 14 22:10:02 2021: env 9: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:02 2021: env 10: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:02 2021: env 11: <COLORTERM=truecolor>
+Thu Jan 14 22:10:02 2021: env 12: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:02 2021: env 13: <USERNAME=pruiz>
+Thu Jan 14 22:10:02 2021: env 14: <XDG_VTNR=2>
+Thu Jan 14 22:10:02 2021: env 15: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:02 2021: env 16: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:02 2021: env 17: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:02 2021: env 18: <S_COLORS=auto>
+Thu Jan 14 22:10:02 2021: env 19: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:02 2021: env 20: <USER=pruiz>
+Thu Jan 14 22:10:02 2021: env 21: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:02 2021: env 22: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:02 2021: env 23: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:02 2021: env 24: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:02 2021: env 25: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:02 2021: env 26: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:02 2021: env 27: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: env 28: <HOME=/home/pruiz>
+Thu Jan 14 22:10:02 2021: env 29: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:02 2021: env 30: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:02 2021: env 31: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:02 2021: env 32: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:02 2021: env 33: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:02 2021: env 34: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:02 2021: env 35: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:02 2021: env 36: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:02 2021: env 37: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:02 2021: env 38: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:02 2021: env 39: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:02 2021: env 40: <WINDOWPATH=2>
+Thu Jan 14 22:10:02 2021: env 41: <VTE_VERSION=5202>
+Thu Jan 14 22:10:02 2021: env 42: <SHELL=/bin/bash>
+Thu Jan 14 22:10:02 2021: env 43: <TERM=xterm-256color>
+Thu Jan 14 22:10:02 2021: env 44: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:02 2021: env 45: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:02 2021: env 46: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:02 2021: env 47: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:02 2021: env 48: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:02 2021: env 49: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:02 2021: env 50: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:02 2021: env 51: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:02 2021: env 52: <SHLVL=1>
+Thu Jan 14 22:10:02 2021: env 53: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:02 2021: env 54: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:02 2021: env 55: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:02 2021: env 56: <LOGNAME=pruiz>
+Thu Jan 14 22:10:02 2021: env 57: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:02 2021: env 58: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:02 2021: env 59: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:02 2021: env 60: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:02 2021: env 61: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:02 2021: env 62: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:02 2021: env 63: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:02 2021: env 64: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:02 2021: env 65: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:02 2021: env 66: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:02 2021: env 67: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:02 2021: env 68: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:02 2021: executing: <make>
+Thu Jan 14 22:10:02 2021: initializing json file
+Thu Jan 14 22:10:02 2021: process created with pid: 11226
+Thu Jan 14 22:10:02 2021: parent pid: 11225
+Thu Jan 14 22:10:02 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: executable: </home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:02 2021: argv[0]: <build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:02 2021: argv[1]: <-c>
+Thu Jan 14 22:10:02 2021: argv[2]: <>
+Thu Jan 14 22:10:02 2021: argv[3]: <make>
+Thu Jan 14 22:10:02 2021: skipping process with pid: 11226
+Thu Jan 14 22:10:02 2021: process created with pid: 11227
+Thu Jan 14 22:10:02 2021: parent pid: 11226
+Thu Jan 14 22:10:02 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: executable: </usr/bin/make>
+Thu Jan 14 22:10:02 2021: argv[0]: <make>
+Thu Jan 14 22:10:02 2021: skipping process with pid: 11227
+Thu Jan 14 22:10:02 2021: process created with pid: 11228
+Thu Jan 14 22:10:02 2021: parent pid: 11227
+Thu Jan 14 22:10:02 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: executable: </bin/dash>
+Thu Jan 14 22:10:02 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:02 2021: argv[1]: <-c>
+Thu Jan 14 22:10:02 2021: argv[2]: <mpiCC -c -I.  -o "arbol.o" "arbol.cpp">
+Thu Jan 14 22:10:02 2021: skipping process with pid: 11228
+Thu Jan 14 22:10:02 2021: process created with pid: 11229
+Thu Jan 14 22:10:02 2021: parent pid: 11228
+Thu Jan 14 22:10:02 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:02 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:02 2021: argv[1]: <-c>
+Thu Jan 14 22:10:02 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:02 2021: argv[3]: <-o>
+Thu Jan 14 22:10:02 2021: argv[4]: <arbol.o>
+Thu Jan 14 22:10:02 2021: argv[5]: <arbol.cpp>
+Thu Jan 14 22:10:02 2021: skipping process with pid: 11229
+Thu Jan 14 22:10:02 2021: process created with pid: 11230
+Thu Jan 14 22:10:02 2021: parent pid: 11229
+Thu Jan 14 22:10:02 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:02 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:02 2021: argv[1]: <-c>
+Thu Jan 14 22:10:02 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:02 2021: argv[3]: <-o>
+Thu Jan 14 22:10:02 2021: argv[4]: <arbol.o>
+Thu Jan 14 22:10:02 2021: argv[5]: <arbol.cpp>
+Thu Jan 14 22:10:02 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:02 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:02 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:02 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:02 2021: argv[10]: <-pthread>
+Thu Jan 14 22:10:02 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:02 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:02 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:02 2021: envp[3]: <ARCH=x86_64>
+Thu Jan 14 22:10:02 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:02 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:02 2021: envp[6]: <USER=pruiz>
+Thu Jan 14 22:10:02 2021: envp[7]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:02 2021: envp[8]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:02 2021: envp[9]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:02 2021: envp[10]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:02 2021: envp[11]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:02 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:02 2021: envp[13]: <SHLVL=1>
+Thu Jan 14 22:10:02 2021: envp[14]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:02 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:02 2021: envp[16]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:02 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:02 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:02 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:02 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:02 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:02 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:02 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:02 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:02 2021: envp[25]: <MAKEFLAGS=>
+Thu Jan 14 22:10:02 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:02 2021: envp[27]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:02 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:02 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:02 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:02 2021: envp[31]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:02 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:02 2021: envp[33]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:02 2021: envp[34]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:02 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:02 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:02 2021: envp[37]: <USERNAME=pruiz>
+Thu Jan 14 22:10:02 2021: envp[38]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:02 2021: envp[39]: <TERM=xterm-256color>
+Thu Jan 14 22:10:02 2021: envp[40]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:02 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:02 2021: envp[42]: <WINDOWPATH=2>
+Thu Jan 14 22:10:02 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:02 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:02 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:02 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:02 2021: envp[47]: <S_COLORS=auto>
+Thu Jan 14 22:10:02 2021: envp[48]: <MAKELEVEL=1>
+Thu Jan 14 22:10:02 2021: envp[49]: <DISPLAY=:0>
+Thu Jan 14 22:10:02 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:02 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:02 2021: envp[52]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:02 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:02 2021: envp[54]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:02 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:02 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:02 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:02 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:02 2021: envp[59]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:02 2021: envp[60]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:02 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:02 2021: envp[62]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:02 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:02 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:02 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:02 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:02 2021: envp[67]: <XDG_VTNR=2>
+Thu Jan 14 22:10:02 2021: envp[68]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:02 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:02 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:02 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:02 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:02 2021: envp[73]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:02 2021: envp[74]: <MFLAGS=>
+Thu Jan 14 22:10:02 2021: envp[75]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:02 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:02 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:02 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:02 2021: Probing C compiler: /usr/bin/x86_64-linux-gnu-g++-7 
+Thu Jan 14 22:10:03 2021: exit code: 0
+Thu Jan 14 22:10:03 2021: stdout:
 #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
 #define __FLT32X_MAX_EXP__ 1024
@@ -585,7 +556,7 @@ Thu Jan 14 22:05:29 2021: stdout:
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-Thu Jan 14 22:05:29 2021: stderr:
+Thu Jan 14 22:10:03 2021: stderr:
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -610,9 +581,9 @@ COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-dM' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 
-Thu Jan 14 22:05:29 2021: Probing C++ compiler: /usr/bin/x86_64-linux-gnu-g++-7 
-Thu Jan 14 22:05:29 2021: exit code: 0
-Thu Jan 14 22:05:29 2021: stdout:
+Thu Jan 14 22:10:03 2021: Probing C++ compiler: /usr/bin/x86_64-linux-gnu-g++-7 
+Thu Jan 14 22:10:03 2021: exit code: 0
+Thu Jan 14 22:10:03 2021: stdout:
 #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
 #define __FLT32X_MAX_EXP__ 1024
@@ -1003,7 +974,7 @@ Thu Jan 14 22:05:29 2021: stdout:
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-Thu Jan 14 22:05:29 2021: stderr:
+Thu Jan 14 22:10:03 2021: stderr:
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -1032,1010 +1003,1010 @@ COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-dM' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 
-Thu Jan 14 22:05:29 2021: process created with pid: 10726
-Thu Jan 14 22:05:29 2021: parent pid: 10724
-Thu Jan 14 22:05:29 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:29 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:29 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:29 2021: argv[1]: <-quiet>
-Thu Jan 14 22:05:29 2021: argv[2]: <-I>
-Thu Jan 14 22:05:29 2021: argv[3]: <.>
-Thu Jan 14 22:05:29 2021: argv[4]: <-I>
-Thu Jan 14 22:05:29 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:29 2021: argv[6]: <-I>
-Thu Jan 14 22:05:29 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:29 2021: argv[8]: <-I>
-Thu Jan 14 22:05:29 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:29 2021: argv[10]: <-I>
-Thu Jan 14 22:05:29 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:29 2021: argv[12]: <-imultiarch>
-Thu Jan 14 22:05:29 2021: argv[13]: <x86_64-linux-gnu>
-Thu Jan 14 22:05:29 2021: argv[14]: <-D_GNU_SOURCE>
-Thu Jan 14 22:05:29 2021: argv[15]: <-D_REENTRANT>
-Thu Jan 14 22:05:29 2021: argv[16]: <arbol.cpp>
-Thu Jan 14 22:05:29 2021: argv[17]: <-quiet>
-Thu Jan 14 22:05:29 2021: argv[18]: <-dumpbase>
-Thu Jan 14 22:05:29 2021: argv[19]: <arbol.cpp>
-Thu Jan 14 22:05:29 2021: argv[20]: <-mtune=generic>
-Thu Jan 14 22:05:29 2021: argv[21]: <-march=x86-64>
-Thu Jan 14 22:05:29 2021: argv[22]: <-auxbase-strip>
-Thu Jan 14 22:05:29 2021: argv[23]: <arbol.o>
-Thu Jan 14 22:05:29 2021: argv[24]: <-fstack-protector-strong>
-Thu Jan 14 22:05:29 2021: argv[25]: <-Wformat>
-Thu Jan 14 22:05:29 2021: argv[26]: <-Wformat-security>
-Thu Jan 14 22:05:29 2021: argv[27]: <-o>
-Thu Jan 14 22:05:29 2021: argv[28]: </tmp/ccTUnLn5.s>
-Thu Jan 14 22:05:29 2021: skipping process with pid: 10726
-Thu Jan 14 22:05:30 2021: process created with pid: 10731
-Thu Jan 14 22:05:30 2021: parent pid: 10724
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Thu Jan 14 22:05:30 2021: argv[0]: <as>
-Thu Jan 14 22:05:30 2021: argv[1]: <-I>
-Thu Jan 14 22:05:30 2021: argv[2]: <.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-I>
-Thu Jan 14 22:05:30 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[5]: <-I>
-Thu Jan 14 22:05:30 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I>
-Thu Jan 14 22:05:30 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I>
-Thu Jan 14 22:05:30 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[11]: <--64>
-Thu Jan 14 22:05:30 2021: argv[12]: <-o>
-Thu Jan 14 22:05:30 2021: argv[13]: <arbol.o>
-Thu Jan 14 22:05:30 2021: argv[14]: </tmp/ccTUnLn5.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10731
-Thu Jan 14 22:05:30 2021: process created with pid: 10732
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <echo "Linking complete!">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10732
-Thu Jan 14 22:05:30 2021: process created with pid: 10733
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <mpiCC -c -I.  -o "main.o" "main.cpp">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10733
-Thu Jan 14 22:05:30 2021: process created with pid: 10734
-Thu Jan 14 22:05:30 2021: parent pid: 10733
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:30 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <main.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <main.cpp>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10734
-Thu Jan 14 22:05:30 2021: process created with pid: 10735
-Thu Jan 14 22:05:30 2021: parent pid: 10734
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <main.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <main.cpp>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-pthread>
-Thu Jan 14 22:05:30 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:30 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:30 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:30 2021: envp[3]: <ARCH=x86_64>
-Thu Jan 14 22:05:30 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:30 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:30 2021: envp[6]: <USER=pruiz>
-Thu Jan 14 22:05:30 2021: envp[7]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:30 2021: envp[8]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:30 2021: envp[9]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:30 2021: envp[10]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:30 2021: envp[11]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:30 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:30 2021: envp[13]: <SHLVL=1>
-Thu Jan 14 22:05:30 2021: envp[14]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:30 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:30 2021: envp[16]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:30 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:30 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:30 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:30 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:30 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:30 2021: envp[25]: <MAKEFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:30 2021: envp[27]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:30 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:30 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:30 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[31]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:30 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:30 2021: envp[33]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[34]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:30 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:30 2021: envp[37]: <USERNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[38]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:30 2021: envp[39]: <TERM=xterm-256color>
-Thu Jan 14 22:05:30 2021: envp[40]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:30 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:30 2021: envp[42]: <WINDOWPATH=2>
-Thu Jan 14 22:05:30 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:30 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:30 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:30 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:30 2021: envp[47]: <S_COLORS=auto>
-Thu Jan 14 22:05:30 2021: envp[48]: <MAKELEVEL=1>
-Thu Jan 14 22:05:30 2021: envp[49]: <DISPLAY=:0>
-Thu Jan 14 22:05:30 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:30 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:30 2021: envp[52]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:30 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:30 2021: envp[54]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:30 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:30 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:30 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:30 2021: envp[59]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:30 2021: envp[60]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[62]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:30 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:30 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:30 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:30 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:30 2021: envp[67]: <XDG_VTNR=2>
-Thu Jan 14 22:05:30 2021: envp[68]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:30 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:30 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[73]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:30 2021: envp[74]: <MFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[75]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:30 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:30 2021: process created with pid: 10736
-Thu Jan 14 22:05:30 2021: parent pid: 10735
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[1]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I>
-Thu Jan 14 22:05:30 2021: argv[3]: <.>
-Thu Jan 14 22:05:30 2021: argv[4]: <-I>
-Thu Jan 14 22:05:30 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I>
-Thu Jan 14 22:05:30 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I>
-Thu Jan 14 22:05:30 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-I>
-Thu Jan 14 22:05:30 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[12]: <-imultiarch>
-Thu Jan 14 22:05:30 2021: argv[13]: <x86_64-linux-gnu>
-Thu Jan 14 22:05:30 2021: argv[14]: <-D_GNU_SOURCE>
-Thu Jan 14 22:05:30 2021: argv[15]: <-D_REENTRANT>
-Thu Jan 14 22:05:30 2021: argv[16]: <main.cpp>
-Thu Jan 14 22:05:30 2021: argv[17]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[18]: <-dumpbase>
-Thu Jan 14 22:05:30 2021: argv[19]: <main.cpp>
-Thu Jan 14 22:05:30 2021: argv[20]: <-mtune=generic>
-Thu Jan 14 22:05:30 2021: argv[21]: <-march=x86-64>
-Thu Jan 14 22:05:30 2021: argv[22]: <-auxbase-strip>
-Thu Jan 14 22:05:30 2021: argv[23]: <main.o>
-Thu Jan 14 22:05:30 2021: argv[24]: <-fstack-protector-strong>
-Thu Jan 14 22:05:30 2021: argv[25]: <-Wformat>
-Thu Jan 14 22:05:30 2021: argv[26]: <-Wformat-security>
-Thu Jan 14 22:05:30 2021: argv[27]: <-o>
-Thu Jan 14 22:05:30 2021: argv[28]: </tmp/ccP0ZHxM.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10736
-Thu Jan 14 22:05:30 2021: process created with pid: 10738
-Thu Jan 14 22:05:30 2021: parent pid: 10735
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Thu Jan 14 22:05:30 2021: argv[0]: <as>
-Thu Jan 14 22:05:30 2021: argv[1]: <-I>
-Thu Jan 14 22:05:30 2021: argv[2]: <.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-I>
-Thu Jan 14 22:05:30 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[5]: <-I>
-Thu Jan 14 22:05:30 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I>
-Thu Jan 14 22:05:30 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I>
-Thu Jan 14 22:05:30 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[11]: <--64>
-Thu Jan 14 22:05:30 2021: argv[12]: <-o>
-Thu Jan 14 22:05:30 2021: argv[13]: <main.o>
-Thu Jan 14 22:05:30 2021: argv[14]: </tmp/ccP0ZHxM.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10738
-Thu Jan 14 22:05:30 2021: process created with pid: 10739
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <echo "Linking complete!">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10739
-Thu Jan 14 22:05:30 2021: process created with pid: 10740
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <mpiCC -c -I.  -o "raid.o" "raid.cpp">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10740
-Thu Jan 14 22:05:30 2021: process created with pid: 10741
-Thu Jan 14 22:05:30 2021: parent pid: 10740
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:30 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <raid.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <raid.cpp>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10741
-Thu Jan 14 22:05:30 2021: process created with pid: 10742
-Thu Jan 14 22:05:30 2021: parent pid: 10741
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <raid.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <raid.cpp>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-pthread>
-Thu Jan 14 22:05:30 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:30 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:30 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:30 2021: envp[3]: <ARCH=x86_64>
-Thu Jan 14 22:05:30 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:30 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:30 2021: envp[6]: <USER=pruiz>
-Thu Jan 14 22:05:30 2021: envp[7]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:30 2021: envp[8]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:30 2021: envp[9]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:30 2021: envp[10]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:30 2021: envp[11]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:30 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:30 2021: envp[13]: <SHLVL=1>
-Thu Jan 14 22:05:30 2021: envp[14]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:30 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:30 2021: envp[16]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:30 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:30 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:30 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:30 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:30 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:30 2021: envp[25]: <MAKEFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:30 2021: envp[27]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:30 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:30 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:30 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[31]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:30 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:30 2021: envp[33]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[34]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:30 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:30 2021: envp[37]: <USERNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[38]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:30 2021: envp[39]: <TERM=xterm-256color>
-Thu Jan 14 22:05:30 2021: envp[40]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:30 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:30 2021: envp[42]: <WINDOWPATH=2>
-Thu Jan 14 22:05:30 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:30 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:30 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:30 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:30 2021: envp[47]: <S_COLORS=auto>
-Thu Jan 14 22:05:30 2021: envp[48]: <MAKELEVEL=1>
-Thu Jan 14 22:05:30 2021: envp[49]: <DISPLAY=:0>
-Thu Jan 14 22:05:30 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:30 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:30 2021: envp[52]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:30 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:30 2021: envp[54]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:30 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:30 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:30 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:30 2021: envp[59]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:30 2021: envp[60]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[62]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:30 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:30 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:30 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:30 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:30 2021: envp[67]: <XDG_VTNR=2>
-Thu Jan 14 22:05:30 2021: envp[68]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:30 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:30 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[73]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:30 2021: envp[74]: <MFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[75]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:30 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:30 2021: process created with pid: 10743
-Thu Jan 14 22:05:30 2021: parent pid: 10742
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[1]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I>
-Thu Jan 14 22:05:30 2021: argv[3]: <.>
-Thu Jan 14 22:05:30 2021: argv[4]: <-I>
-Thu Jan 14 22:05:30 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I>
-Thu Jan 14 22:05:30 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I>
-Thu Jan 14 22:05:30 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-I>
-Thu Jan 14 22:05:30 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[12]: <-imultiarch>
-Thu Jan 14 22:05:30 2021: argv[13]: <x86_64-linux-gnu>
-Thu Jan 14 22:05:30 2021: argv[14]: <-D_GNU_SOURCE>
-Thu Jan 14 22:05:30 2021: argv[15]: <-D_REENTRANT>
-Thu Jan 14 22:05:30 2021: argv[16]: <raid.cpp>
-Thu Jan 14 22:05:30 2021: argv[17]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[18]: <-dumpbase>
-Thu Jan 14 22:05:30 2021: argv[19]: <raid.cpp>
-Thu Jan 14 22:05:30 2021: argv[20]: <-mtune=generic>
-Thu Jan 14 22:05:30 2021: argv[21]: <-march=x86-64>
-Thu Jan 14 22:05:30 2021: argv[22]: <-auxbase-strip>
-Thu Jan 14 22:05:30 2021: argv[23]: <raid.o>
-Thu Jan 14 22:05:30 2021: argv[24]: <-fstack-protector-strong>
-Thu Jan 14 22:05:30 2021: argv[25]: <-Wformat>
-Thu Jan 14 22:05:30 2021: argv[26]: <-Wformat-security>
-Thu Jan 14 22:05:30 2021: argv[27]: <-o>
-Thu Jan 14 22:05:30 2021: argv[28]: </tmp/ccw1FGHf.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10743
-Thu Jan 14 22:05:30 2021: process created with pid: 10745
-Thu Jan 14 22:05:30 2021: parent pid: 10742
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Thu Jan 14 22:05:30 2021: argv[0]: <as>
-Thu Jan 14 22:05:30 2021: argv[1]: <-I>
-Thu Jan 14 22:05:30 2021: argv[2]: <.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-I>
-Thu Jan 14 22:05:30 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[5]: <-I>
-Thu Jan 14 22:05:30 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I>
-Thu Jan 14 22:05:30 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I>
-Thu Jan 14 22:05:30 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[11]: <--64>
-Thu Jan 14 22:05:30 2021: argv[12]: <-o>
-Thu Jan 14 22:05:30 2021: argv[13]: <raid.o>
-Thu Jan 14 22:05:30 2021: argv[14]: </tmp/ccw1FGHf.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10745
-Thu Jan 14 22:05:30 2021: process created with pid: 10746
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <echo "Linking complete!">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10746
-Thu Jan 14 22:05:30 2021: process created with pid: 10747
-Thu Jan 14 22:05:30 2021: parent pid: 10718
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </bin/dash>
-Thu Jan 14 22:05:30 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <mpiCC -c -I.  -o "slave.o" "slave.cpp">
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10747
-Thu Jan 14 22:05:30 2021: process created with pid: 10748
-Thu Jan 14 22:05:30 2021: parent pid: 10747
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:30 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <slave.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <slave.cpp>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10748
-Thu Jan 14 22:05:30 2021: process created with pid: 10749
-Thu Jan 14 22:05:30 2021: parent pid: 10748
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:30 2021: argv[1]: <-c>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:30 2021: argv[3]: <-o>
-Thu Jan 14 22:05:30 2021: argv[4]: <slave.o>
-Thu Jan 14 22:05:30 2021: argv[5]: <slave.cpp>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-pthread>
-Thu Jan 14 22:05:30 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:30 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:30 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:30 2021: envp[3]: <ARCH=x86_64>
-Thu Jan 14 22:05:30 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:30 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:30 2021: envp[6]: <USER=pruiz>
-Thu Jan 14 22:05:30 2021: envp[7]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:30 2021: envp[8]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:30 2021: envp[9]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:30 2021: envp[10]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:30 2021: envp[11]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:30 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:30 2021: envp[13]: <SHLVL=1>
-Thu Jan 14 22:05:30 2021: envp[14]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:30 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:30 2021: envp[16]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:30 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:30 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:30 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:30 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:30 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:30 2021: envp[25]: <MAKEFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:30 2021: envp[27]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:30 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:30 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:30 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[31]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:30 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:30 2021: envp[33]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[34]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:30 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:30 2021: envp[37]: <USERNAME=pruiz>
-Thu Jan 14 22:05:30 2021: envp[38]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:30 2021: envp[39]: <TERM=xterm-256color>
-Thu Jan 14 22:05:30 2021: envp[40]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:30 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:30 2021: envp[42]: <WINDOWPATH=2>
-Thu Jan 14 22:05:30 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:30 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:30 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:30 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:30 2021: envp[47]: <S_COLORS=auto>
-Thu Jan 14 22:05:30 2021: envp[48]: <MAKELEVEL=1>
-Thu Jan 14 22:05:30 2021: envp[49]: <DISPLAY=:0>
-Thu Jan 14 22:05:30 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:30 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:30 2021: envp[52]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:30 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:30 2021: envp[54]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:30 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:30 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:30 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:30 2021: envp[59]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:30 2021: envp[60]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:30 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:30 2021: envp[62]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:30 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:30 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:30 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:30 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:30 2021: envp[67]: <XDG_VTNR=2>
-Thu Jan 14 22:05:30 2021: envp[68]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:30 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:30 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:30 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:30 2021: envp[73]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:30 2021: envp[74]: <MFLAGS=>
-Thu Jan 14 22:05:30 2021: envp[75]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:30 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:30 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:30 2021: process created with pid: 10750
-Thu Jan 14 22:05:30 2021: parent pid: 10749
-Thu Jan 14 22:05:30 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:30 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:30 2021: argv[1]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[2]: <-I>
-Thu Jan 14 22:05:30 2021: argv[3]: <.>
-Thu Jan 14 22:05:30 2021: argv[4]: <-I>
-Thu Jan 14 22:05:30 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:30 2021: argv[6]: <-I>
-Thu Jan 14 22:05:30 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:30 2021: argv[8]: <-I>
-Thu Jan 14 22:05:30 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:30 2021: argv[10]: <-I>
-Thu Jan 14 22:05:30 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:30 2021: argv[12]: <-imultiarch>
-Thu Jan 14 22:05:30 2021: argv[13]: <x86_64-linux-gnu>
-Thu Jan 14 22:05:30 2021: argv[14]: <-D_GNU_SOURCE>
-Thu Jan 14 22:05:30 2021: argv[15]: <-D_REENTRANT>
-Thu Jan 14 22:05:30 2021: argv[16]: <slave.cpp>
-Thu Jan 14 22:05:30 2021: argv[17]: <-quiet>
-Thu Jan 14 22:05:30 2021: argv[18]: <-dumpbase>
-Thu Jan 14 22:05:30 2021: argv[19]: <slave.cpp>
-Thu Jan 14 22:05:30 2021: argv[20]: <-mtune=generic>
-Thu Jan 14 22:05:30 2021: argv[21]: <-march=x86-64>
-Thu Jan 14 22:05:30 2021: argv[22]: <-auxbase-strip>
-Thu Jan 14 22:05:30 2021: argv[23]: <slave.o>
-Thu Jan 14 22:05:30 2021: argv[24]: <-fstack-protector-strong>
-Thu Jan 14 22:05:30 2021: argv[25]: <-Wformat>
-Thu Jan 14 22:05:30 2021: argv[26]: <-Wformat-security>
-Thu Jan 14 22:05:30 2021: argv[27]: <-o>
-Thu Jan 14 22:05:30 2021: argv[28]: </tmp/ccDwDTSH.s>
-Thu Jan 14 22:05:30 2021: skipping process with pid: 10750
-Thu Jan 14 22:05:31 2021: process created with pid: 10751
-Thu Jan 14 22:05:31 2021: parent pid: 10749
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Thu Jan 14 22:05:31 2021: argv[0]: <as>
-Thu Jan 14 22:05:31 2021: argv[1]: <-I>
-Thu Jan 14 22:05:31 2021: argv[2]: <.>
-Thu Jan 14 22:05:31 2021: argv[3]: <-I>
-Thu Jan 14 22:05:31 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:31 2021: argv[5]: <-I>
-Thu Jan 14 22:05:31 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:31 2021: argv[7]: <-I>
-Thu Jan 14 22:05:31 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:31 2021: argv[9]: <-I>
-Thu Jan 14 22:05:31 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:31 2021: argv[11]: <--64>
-Thu Jan 14 22:05:31 2021: argv[12]: <-o>
-Thu Jan 14 22:05:31 2021: argv[13]: <slave.o>
-Thu Jan 14 22:05:31 2021: argv[14]: </tmp/ccDwDTSH.s>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10751
-Thu Jan 14 22:05:31 2021: process created with pid: 10752
-Thu Jan 14 22:05:31 2021: parent pid: 10718
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </bin/dash>
-Thu Jan 14 22:05:31 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <echo "Linking complete!">
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10752
-Thu Jan 14 22:05:31 2021: process created with pid: 10753
-Thu Jan 14 22:05:31 2021: parent pid: 10718
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </bin/dash>
-Thu Jan 14 22:05:31 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <mpiCC -c -I.  -o "terminal.o" "terminal.cpp">
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10753
-Thu Jan 14 22:05:31 2021: process created with pid: 10754
-Thu Jan 14 22:05:31 2021: parent pid: 10753
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:31 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:31 2021: argv[3]: <-o>
-Thu Jan 14 22:05:31 2021: argv[4]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[5]: <terminal.cpp>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10754
-Thu Jan 14 22:05:31 2021: process created with pid: 10755
-Thu Jan 14 22:05:31 2021: parent pid: 10754
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:31 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <-I.>
-Thu Jan 14 22:05:31 2021: argv[3]: <-o>
-Thu Jan 14 22:05:31 2021: argv[4]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[5]: <terminal.cpp>
-Thu Jan 14 22:05:31 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:31 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:31 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:31 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:31 2021: argv[10]: <-pthread>
-Thu Jan 14 22:05:31 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:31 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:31 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:31 2021: envp[3]: <ARCH=x86_64>
-Thu Jan 14 22:05:31 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:31 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:31 2021: envp[6]: <USER=pruiz>
-Thu Jan 14 22:05:31 2021: envp[7]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:31 2021: envp[8]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:31 2021: envp[9]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:31 2021: envp[10]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:31 2021: envp[11]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:31 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:31 2021: envp[13]: <SHLVL=1>
-Thu Jan 14 22:05:31 2021: envp[14]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:31 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:31 2021: envp[16]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:31 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:31 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:31 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:31 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:31 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:31 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:31 2021: envp[25]: <MAKEFLAGS=>
-Thu Jan 14 22:05:31 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:31 2021: envp[27]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:31 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:31 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:31 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:31 2021: envp[31]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:31 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:31 2021: envp[33]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:31 2021: envp[34]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:31 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:31 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:31 2021: envp[37]: <USERNAME=pruiz>
-Thu Jan 14 22:05:31 2021: envp[38]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:31 2021: envp[39]: <TERM=xterm-256color>
-Thu Jan 14 22:05:31 2021: envp[40]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:31 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:31 2021: envp[42]: <WINDOWPATH=2>
-Thu Jan 14 22:05:31 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:31 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:31 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:31 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:31 2021: envp[47]: <S_COLORS=auto>
-Thu Jan 14 22:05:31 2021: envp[48]: <MAKELEVEL=1>
-Thu Jan 14 22:05:31 2021: envp[49]: <DISPLAY=:0>
-Thu Jan 14 22:05:31 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:31 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:31 2021: envp[52]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:31 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:31 2021: envp[54]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:31 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:31 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:31 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:31 2021: envp[59]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:31 2021: envp[60]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:31 2021: envp[62]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:31 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:31 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:31 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:31 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:31 2021: envp[67]: <XDG_VTNR=2>
-Thu Jan 14 22:05:31 2021: envp[68]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:31 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:31 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:31 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:31 2021: envp[73]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:31 2021: envp[74]: <MFLAGS=>
-Thu Jan 14 22:05:31 2021: envp[75]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:31 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:31 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:31 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:31 2021: process created with pid: 10756
-Thu Jan 14 22:05:31 2021: parent pid: 10755
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:31 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
-Thu Jan 14 22:05:31 2021: argv[1]: <-quiet>
-Thu Jan 14 22:05:31 2021: argv[2]: <-I>
-Thu Jan 14 22:05:31 2021: argv[3]: <.>
-Thu Jan 14 22:05:31 2021: argv[4]: <-I>
-Thu Jan 14 22:05:31 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:31 2021: argv[6]: <-I>
-Thu Jan 14 22:05:31 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:31 2021: argv[8]: <-I>
-Thu Jan 14 22:05:31 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:31 2021: argv[10]: <-I>
-Thu Jan 14 22:05:31 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:31 2021: argv[12]: <-imultiarch>
-Thu Jan 14 22:05:31 2021: argv[13]: <x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[14]: <-D_GNU_SOURCE>
-Thu Jan 14 22:05:31 2021: argv[15]: <-D_REENTRANT>
-Thu Jan 14 22:05:31 2021: argv[16]: <terminal.cpp>
-Thu Jan 14 22:05:31 2021: argv[17]: <-quiet>
-Thu Jan 14 22:05:31 2021: argv[18]: <-dumpbase>
-Thu Jan 14 22:05:31 2021: argv[19]: <terminal.cpp>
-Thu Jan 14 22:05:31 2021: argv[20]: <-mtune=generic>
-Thu Jan 14 22:05:31 2021: argv[21]: <-march=x86-64>
-Thu Jan 14 22:05:31 2021: argv[22]: <-auxbase-strip>
-Thu Jan 14 22:05:31 2021: argv[23]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[24]: <-fstack-protector-strong>
-Thu Jan 14 22:05:31 2021: argv[25]: <-Wformat>
-Thu Jan 14 22:05:31 2021: argv[26]: <-Wformat-security>
-Thu Jan 14 22:05:31 2021: argv[27]: <-o>
-Thu Jan 14 22:05:31 2021: argv[28]: </tmp/cckMuSm3.s>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10756
-Thu Jan 14 22:05:31 2021: process created with pid: 10757
-Thu Jan 14 22:05:31 2021: parent pid: 10755
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/x86_64-linux-gnu-as>
-Thu Jan 14 22:05:31 2021: argv[0]: <as>
-Thu Jan 14 22:05:31 2021: argv[1]: <-I>
-Thu Jan 14 22:05:31 2021: argv[2]: <.>
-Thu Jan 14 22:05:31 2021: argv[3]: <-I>
-Thu Jan 14 22:05:31 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:31 2021: argv[5]: <-I>
-Thu Jan 14 22:05:31 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:31 2021: argv[7]: <-I>
-Thu Jan 14 22:05:31 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:31 2021: argv[9]: <-I>
-Thu Jan 14 22:05:31 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:31 2021: argv[11]: <--64>
-Thu Jan 14 22:05:31 2021: argv[12]: <-o>
-Thu Jan 14 22:05:31 2021: argv[13]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[14]: </tmp/cckMuSm3.s>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10757
-Thu Jan 14 22:05:31 2021: process created with pid: 10758
-Thu Jan 14 22:05:31 2021: parent pid: 10718
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </bin/dash>
-Thu Jan 14 22:05:31 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <echo "Linking complete!">
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10758
-Thu Jan 14 22:05:31 2021: process created with pid: 10759
-Thu Jan 14 22:05:31 2021: parent pid: 10718
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/opal_wrapper>
-Thu Jan 14 22:05:31 2021: argv[0]: <mpiCC>
-Thu Jan 14 22:05:31 2021: argv[1]: <arbol.o>
-Thu Jan 14 22:05:31 2021: argv[2]: <main.o>
-Thu Jan 14 22:05:31 2021: argv[3]: <raid.o>
-Thu Jan 14 22:05:31 2021: argv[4]: <slave.o>
-Thu Jan 14 22:05:31 2021: argv[5]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[6]: <-o>
-Thu Jan 14 22:05:31 2021: argv[7]: <mpiDisc>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10759
-Thu Jan 14 22:05:31 2021: process created with pid: 10760
-Thu Jan 14 22:05:31 2021: parent pid: 10759
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
-Thu Jan 14 22:05:31 2021: argv[0]: </usr/bin/g++>
-Thu Jan 14 22:05:31 2021: argv[1]: <arbol.o>
-Thu Jan 14 22:05:31 2021: argv[2]: <main.o>
-Thu Jan 14 22:05:31 2021: argv[3]: <raid.o>
-Thu Jan 14 22:05:31 2021: argv[4]: <slave.o>
-Thu Jan 14 22:05:31 2021: argv[5]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[6]: <-o>
-Thu Jan 14 22:05:31 2021: argv[7]: <mpiDisc>
-Thu Jan 14 22:05:31 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
-Thu Jan 14 22:05:31 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
-Thu Jan 14 22:05:31 2021: argv[10]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
-Thu Jan 14 22:05:31 2021: argv[11]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
-Thu Jan 14 22:05:31 2021: argv[12]: <-pthread>
-Thu Jan 14 22:05:31 2021: argv[13]: <-L/usr//lib>
-Thu Jan 14 22:05:31 2021: argv[14]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
-Thu Jan 14 22:05:31 2021: argv[15]: <-lmpi_cxx>
-Thu Jan 14 22:05:31 2021: argv[16]: <-lmpi>
-Thu Jan 14 22:05:31 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61>
-Thu Jan 14 22:05:31 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Thu Jan 14 22:05:31 2021: envp[2]: <DESKTOP_SESSION=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[3]: <XDG_SESSION_TYPE=x11>
-Thu Jan 14 22:05:31 2021: envp[4]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
-Thu Jan 14 22:05:31 2021: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
-Thu Jan 14 22:05:31 2021: envp[6]: <GDMSESSION=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[7]: <XMODIFIERS=@im=ibus>
-Thu Jan 14 22:05:31 2021: envp[8]: <RBENV_SHELL=bash>
-Thu Jan 14 22:05:31 2021: envp[9]: <VTE_VERSION=5202>
-Thu Jan 14 22:05:31 2021: envp[10]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Thu Jan 14 22:05:31 2021: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Thu Jan 14 22:05:31 2021: envp[12]: <IM_CONFIG_PHASE=2>
-Thu Jan 14 22:05:31 2021: envp[13]: <USERNAME=pruiz>
-Thu Jan 14 22:05:31 2021: envp[14]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
-Thu Jan 14 22:05:31 2021: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Thu Jan 14 22:05:31 2021: envp[16]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
-Thu Jan 14 22:05:31 2021: envp[17]: <CLUTTER_IM_MODULE=xim>
-Thu Jan 14 22:05:31 2021: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Thu Jan 14 22:05:31 2021: envp[19]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
-Thu Jan 14 22:05:31 2021: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
-Thu Jan 14 22:05:31 2021: envp[21]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
-Thu Jan 14 22:05:31 2021: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
-Thu Jan 14 22:05:31 2021: envp[23]: <TEXTDOMAIN=im-config>
-Thu Jan 14 22:05:31 2021: envp[24]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
-Thu Jan 14 22:05:31 2021: envp[25]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
-Thu Jan 14 22:05:31 2021: envp[26]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Thu Jan 14 22:05:31 2021: envp[27]: <XDG_SESSION_DESKTOP=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[28]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
-Thu Jan 14 22:05:31 2021: envp[29]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
-Thu Jan 14 22:05:31 2021: envp[30]: <DISPLAY=:0>
-Thu Jan 14 22:05:31 2021: envp[31]: <XDG_MENU_PREFIX=gnome->
-Thu Jan 14 22:05:31 2021: envp[32]: <GTK_IM_MODULE=ibus>
-Thu Jan 14 22:05:31 2021: envp[33]: <HOME=/home/pruiz>
-Thu Jan 14 22:05:31 2021: envp[34]: <PWD=/tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: envp[35]: <XDG_SEAT=seat0>
-Thu Jan 14 22:05:31 2021: envp[36]: <SSH_AGENT_PID=2920>
-Thu Jan 14 22:05:31 2021: envp[37]: <GTK_MODULES=gail:atk-bridge>
-Thu Jan 14 22:05:31 2021: envp[38]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
-Thu Jan 14 22:05:31 2021: envp[39]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Thu Jan 14 22:05:31 2021: envp[40]: <LOGNAME=pruiz>
-Thu Jan 14 22:05:31 2021: envp[41]: <GO_PATH=/usr/local/go/bin>
-Thu Jan 14 22:05:31 2021: envp[42]: <NVM_CD_FLAGS=>
-Thu Jan 14 22:05:31 2021: envp[43]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Thu Jan 14 22:05:31 2021: envp[44]: <XDG_VTNR=2>
-Thu Jan 14 22:05:31 2021: envp[45]: <COLORTERM=truecolor>
-Thu Jan 14 22:05:31 2021: envp[46]: <QT_IM_MODULE=ibus>
-Thu Jan 14 22:05:31 2021: envp[47]: <SHLVL=1>
-Thu Jan 14 22:05:31 2021: envp[48]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Thu Jan 14 22:05:31 2021: envp[49]: <XDG_SESSION_ID=4>
-Thu Jan 14 22:05:31 2021: envp[50]: <USER=pruiz>
-Thu Jan 14 22:05:31 2021: envp[51]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Thu Jan 14 22:05:31 2021: envp[52]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
-Thu Jan 14 22:05:31 2021: envp[53]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
-Thu Jan 14 22:05:31 2021: envp[54]: <LANGUAGE=es_ES:>
-Thu Jan 14 22:05:31 2021: envp[55]: <ARCH=x86_64>
-Thu Jan 14 22:05:31 2021: envp[56]: <MAKEFLAGS=>
-Thu Jan 14 22:05:31 2021: envp[57]: <MFLAGS=>
-Thu Jan 14 22:05:31 2021: envp[58]: <NVM_DIR=/home/pruiz/.nvm>
-Thu Jan 14 22:05:31 2021: envp[59]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
-Thu Jan 14 22:05:31 2021: envp[60]: <SHELL=/bin/bash>
-Thu Jan 14 22:05:31 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
-Thu Jan 14 22:05:31 2021: envp[62]: <S_COLORS=auto>
-Thu Jan 14 22:05:31 2021: envp[63]: <QT_ACCESSIBILITY=1>
-Thu Jan 14 22:05:31 2021: envp[64]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
-Thu Jan 14 22:05:31 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
-Thu Jan 14 22:05:31 2021: envp[66]: <QT4_IM_MODULE=xim>
-Thu Jan 14 22:05:31 2021: envp[67]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
-Thu Jan 14 22:05:31 2021: envp[68]: <WINDOWPATH=2>
-Thu Jan 14 22:05:31 2021: envp[69]: <GJS_DEBUG_OUTPUT=stderr>
-Thu Jan 14 22:05:31 2021: envp[70]: <MAKE_TERMERR=/dev/pts/2>
-Thu Jan 14 22:05:31 2021: envp[71]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
-Thu Jan 14 22:05:31 2021: envp[72]: <LANG=es_ES.UTF-8>
-Thu Jan 14 22:05:31 2021: envp[73]: <TERM=xterm-256color>
-Thu Jan 14 22:05:31 2021: envp[74]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
-Thu Jan 14 22:05:31 2021: envp[75]: <MAKELEVEL=1>
-Thu Jan 14 22:05:31 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
-Thu Jan 14 22:05:31 2021: envp[77]: <HFI_NO_BACKTRACE=1>
-Thu Jan 14 22:05:31 2021: envp[78]: <LD_PRELOAD=>
-Thu Jan 14 22:05:31 2021: process created with pid: 10761
-Thu Jan 14 22:05:31 2021: parent pid: 10760
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/collect2>
-Thu Jan 14 22:05:31 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/collect2>
-Thu Jan 14 22:05:31 2021: argv[1]: <-plugin>
-Thu Jan 14 22:05:31 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so>
-Thu Jan 14 22:05:31 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper>
-Thu Jan 14 22:05:31 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/cc1mY6TE.res>
-Thu Jan 14 22:05:31 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc>
-Thu Jan 14 22:05:31 2021: argv[7]: <-plugin-opt=-pass-through=-lpthread>
-Thu Jan 14 22:05:31 2021: argv[8]: <-plugin-opt=-pass-through=-lc>
-Thu Jan 14 22:05:31 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[10]: <-plugin-opt=-pass-through=-lgcc>
-Thu Jan 14 22:05:31 2021: argv[11]: <--build-id>
-Thu Jan 14 22:05:31 2021: argv[12]: <--eh-frame-hdr>
-Thu Jan 14 22:05:31 2021: argv[13]: <-m>
-Thu Jan 14 22:05:31 2021: argv[14]: <elf_x86_64>
-Thu Jan 14 22:05:31 2021: argv[15]: <--hash-style=gnu>
-Thu Jan 14 22:05:31 2021: argv[16]: <--as-needed>
-Thu Jan 14 22:05:31 2021: argv[17]: <-dynamic-linker>
-Thu Jan 14 22:05:31 2021: argv[18]: </lib64/ld-linux-x86-64.so.2>
-Thu Jan 14 22:05:31 2021: argv[19]: <-pie>
-Thu Jan 14 22:05:31 2021: argv[20]: <-z>
-Thu Jan 14 22:05:31 2021: argv[21]: <now>
-Thu Jan 14 22:05:31 2021: argv[22]: <-z>
-Thu Jan 14 22:05:31 2021: argv[23]: <relro>
-Thu Jan 14 22:05:31 2021: argv[24]: <-o>
-Thu Jan 14 22:05:31 2021: argv[25]: <mpiDisc>
-Thu Jan 14 22:05:31 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o>
-Thu Jan 14 22:05:31 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o>
-Thu Jan 14 22:05:31 2021: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o>
-Thu Jan 14 22:05:31 2021: argv[29]: <-L/usr//lib>
-Thu Jan 14 22:05:31 2021: argv[30]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
-Thu Jan 14 22:05:31 2021: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/7>
-Thu Jan 14 22:05:31 2021: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[33]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib>
-Thu Jan 14 22:05:31 2021: argv[34]: <-L/lib/x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[35]: <-L/lib/../lib>
-Thu Jan 14 22:05:31 2021: argv[36]: <-L/usr/lib/x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[37]: <-L/usr/lib/../lib>
-Thu Jan 14 22:05:31 2021: argv[38]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..>
-Thu Jan 14 22:05:31 2021: argv[39]: <arbol.o>
-Thu Jan 14 22:05:31 2021: argv[40]: <main.o>
-Thu Jan 14 22:05:31 2021: argv[41]: <raid.o>
-Thu Jan 14 22:05:31 2021: argv[42]: <slave.o>
-Thu Jan 14 22:05:31 2021: argv[43]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[44]: <-lmpi_cxx>
-Thu Jan 14 22:05:31 2021: argv[45]: <-lmpi>
-Thu Jan 14 22:05:31 2021: argv[46]: <-lstdc++>
-Thu Jan 14 22:05:31 2021: argv[47]: <-lm>
-Thu Jan 14 22:05:31 2021: argv[48]: <-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[49]: <-lgcc>
-Thu Jan 14 22:05:31 2021: argv[50]: <-lpthread>
-Thu Jan 14 22:05:31 2021: argv[51]: <-lc>
-Thu Jan 14 22:05:31 2021: argv[52]: <-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[53]: <-lgcc>
-Thu Jan 14 22:05:31 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o>
-Thu Jan 14 22:05:31 2021: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10761
-Thu Jan 14 22:05:31 2021: process created with pid: 10762
-Thu Jan 14 22:05:31 2021: parent pid: 10761
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
-Thu Jan 14 22:05:31 2021: argv[0]: </usr/bin/ld>
-Thu Jan 14 22:05:31 2021: argv[1]: <-plugin>
-Thu Jan 14 22:05:31 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so>
-Thu Jan 14 22:05:31 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper>
-Thu Jan 14 22:05:31 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/cc1mY6TE.res>
-Thu Jan 14 22:05:31 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc>
-Thu Jan 14 22:05:31 2021: argv[7]: <-plugin-opt=-pass-through=-lpthread>
-Thu Jan 14 22:05:31 2021: argv[8]: <-plugin-opt=-pass-through=-lc>
-Thu Jan 14 22:05:31 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[10]: <-plugin-opt=-pass-through=-lgcc>
-Thu Jan 14 22:05:31 2021: argv[11]: <--build-id>
-Thu Jan 14 22:05:31 2021: argv[12]: <--eh-frame-hdr>
-Thu Jan 14 22:05:31 2021: argv[13]: <-m>
-Thu Jan 14 22:05:31 2021: argv[14]: <elf_x86_64>
-Thu Jan 14 22:05:31 2021: argv[15]: <--hash-style=gnu>
-Thu Jan 14 22:05:31 2021: argv[16]: <--as-needed>
-Thu Jan 14 22:05:31 2021: argv[17]: <-dynamic-linker>
-Thu Jan 14 22:05:31 2021: argv[18]: </lib64/ld-linux-x86-64.so.2>
-Thu Jan 14 22:05:31 2021: argv[19]: <-pie>
-Thu Jan 14 22:05:31 2021: argv[20]: <-z>
-Thu Jan 14 22:05:31 2021: argv[21]: <now>
-Thu Jan 14 22:05:31 2021: argv[22]: <-z>
-Thu Jan 14 22:05:31 2021: argv[23]: <relro>
-Thu Jan 14 22:05:31 2021: argv[24]: <-o>
-Thu Jan 14 22:05:31 2021: argv[25]: <mpiDisc>
-Thu Jan 14 22:05:31 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o>
-Thu Jan 14 22:05:31 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o>
-Thu Jan 14 22:05:31 2021: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o>
-Thu Jan 14 22:05:31 2021: argv[29]: <-L/usr//lib>
-Thu Jan 14 22:05:31 2021: argv[30]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
-Thu Jan 14 22:05:31 2021: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/7>
-Thu Jan 14 22:05:31 2021: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[33]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib>
-Thu Jan 14 22:05:31 2021: argv[34]: <-L/lib/x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[35]: <-L/lib/../lib>
-Thu Jan 14 22:05:31 2021: argv[36]: <-L/usr/lib/x86_64-linux-gnu>
-Thu Jan 14 22:05:31 2021: argv[37]: <-L/usr/lib/../lib>
-Thu Jan 14 22:05:31 2021: argv[38]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..>
-Thu Jan 14 22:05:31 2021: argv[39]: <arbol.o>
-Thu Jan 14 22:05:31 2021: argv[40]: <main.o>
-Thu Jan 14 22:05:31 2021: argv[41]: <raid.o>
-Thu Jan 14 22:05:31 2021: argv[42]: <slave.o>
-Thu Jan 14 22:05:31 2021: argv[43]: <terminal.o>
-Thu Jan 14 22:05:31 2021: argv[44]: <-lmpi_cxx>
-Thu Jan 14 22:05:31 2021: argv[45]: <-lmpi>
-Thu Jan 14 22:05:31 2021: argv[46]: <-lstdc++>
-Thu Jan 14 22:05:31 2021: argv[47]: <-lm>
-Thu Jan 14 22:05:31 2021: argv[48]: <-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[49]: <-lgcc>
-Thu Jan 14 22:05:31 2021: argv[50]: <-lpthread>
-Thu Jan 14 22:05:31 2021: argv[51]: <-lc>
-Thu Jan 14 22:05:31 2021: argv[52]: <-lgcc_s>
-Thu Jan 14 22:05:31 2021: argv[53]: <-lgcc>
-Thu Jan 14 22:05:31 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o>
-Thu Jan 14 22:05:31 2021: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o>
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10762
-Thu Jan 14 22:05:31 2021: process created with pid: 10763
-Thu Jan 14 22:05:31 2021: parent pid: 10718
-Thu Jan 14 22:05:31 2021: working directory: </tmp/Distributed_Systems>
-Thu Jan 14 22:05:31 2021: executable: </bin/dash>
-Thu Jan 14 22:05:31 2021: argv[0]: </bin/sh>
-Thu Jan 14 22:05:31 2021: argv[1]: <-c>
-Thu Jan 14 22:05:31 2021: argv[2]: <echo "Compilation complete!">
-Thu Jan 14 22:05:31 2021: skipping process with pid: 10763
-Thu Jan 14 22:05:31 2021: finalizing json file
-Thu Jan 14 22:05:31 2021: returned with code: 0
+Thu Jan 14 22:10:03 2021: process created with pid: 11232
+Thu Jan 14 22:10:03 2021: parent pid: 11230
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:03 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:03 2021: argv[1]: <-quiet>
+Thu Jan 14 22:10:03 2021: argv[2]: <-I>
+Thu Jan 14 22:10:03 2021: argv[3]: <.>
+Thu Jan 14 22:10:03 2021: argv[4]: <-I>
+Thu Jan 14 22:10:03 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:03 2021: argv[6]: <-I>
+Thu Jan 14 22:10:03 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:03 2021: argv[8]: <-I>
+Thu Jan 14 22:10:03 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:03 2021: argv[10]: <-I>
+Thu Jan 14 22:10:03 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:03 2021: argv[12]: <-imultiarch>
+Thu Jan 14 22:10:03 2021: argv[13]: <x86_64-linux-gnu>
+Thu Jan 14 22:10:03 2021: argv[14]: <-D_GNU_SOURCE>
+Thu Jan 14 22:10:03 2021: argv[15]: <-D_REENTRANT>
+Thu Jan 14 22:10:03 2021: argv[16]: <arbol.cpp>
+Thu Jan 14 22:10:03 2021: argv[17]: <-quiet>
+Thu Jan 14 22:10:03 2021: argv[18]: <-dumpbase>
+Thu Jan 14 22:10:03 2021: argv[19]: <arbol.cpp>
+Thu Jan 14 22:10:03 2021: argv[20]: <-mtune=generic>
+Thu Jan 14 22:10:03 2021: argv[21]: <-march=x86-64>
+Thu Jan 14 22:10:03 2021: argv[22]: <-auxbase-strip>
+Thu Jan 14 22:10:03 2021: argv[23]: <arbol.o>
+Thu Jan 14 22:10:03 2021: argv[24]: <-fstack-protector-strong>
+Thu Jan 14 22:10:03 2021: argv[25]: <-Wformat>
+Thu Jan 14 22:10:03 2021: argv[26]: <-Wformat-security>
+Thu Jan 14 22:10:03 2021: argv[27]: <-o>
+Thu Jan 14 22:10:03 2021: argv[28]: </tmp/ccOeVQbK.s>
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11232
+Thu Jan 14 22:10:03 2021: process created with pid: 11236
+Thu Jan 14 22:10:03 2021: parent pid: 11230
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Thu Jan 14 22:10:03 2021: argv[0]: <as>
+Thu Jan 14 22:10:03 2021: argv[1]: <-I>
+Thu Jan 14 22:10:03 2021: argv[2]: <.>
+Thu Jan 14 22:10:03 2021: argv[3]: <-I>
+Thu Jan 14 22:10:03 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:03 2021: argv[5]: <-I>
+Thu Jan 14 22:10:03 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:03 2021: argv[7]: <-I>
+Thu Jan 14 22:10:03 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:03 2021: argv[9]: <-I>
+Thu Jan 14 22:10:03 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:03 2021: argv[11]: <--64>
+Thu Jan 14 22:10:03 2021: argv[12]: <-o>
+Thu Jan 14 22:10:03 2021: argv[13]: <arbol.o>
+Thu Jan 14 22:10:03 2021: argv[14]: </tmp/ccOeVQbK.s>
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11236
+Thu Jan 14 22:10:03 2021: process created with pid: 11237
+Thu Jan 14 22:10:03 2021: parent pid: 11227
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </bin/dash>
+Thu Jan 14 22:10:03 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:03 2021: argv[1]: <-c>
+Thu Jan 14 22:10:03 2021: argv[2]: <echo "Linking complete!">
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11237
+Thu Jan 14 22:10:03 2021: process created with pid: 11238
+Thu Jan 14 22:10:03 2021: parent pid: 11227
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </bin/dash>
+Thu Jan 14 22:10:03 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:03 2021: argv[1]: <-c>
+Thu Jan 14 22:10:03 2021: argv[2]: <mpiCC -c -I.  -o "main.o" "main.cpp">
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11238
+Thu Jan 14 22:10:03 2021: process created with pid: 11239
+Thu Jan 14 22:10:03 2021: parent pid: 11238
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:03 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:03 2021: argv[1]: <-c>
+Thu Jan 14 22:10:03 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:03 2021: argv[3]: <-o>
+Thu Jan 14 22:10:03 2021: argv[4]: <main.o>
+Thu Jan 14 22:10:03 2021: argv[5]: <main.cpp>
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11239
+Thu Jan 14 22:10:03 2021: process created with pid: 11240
+Thu Jan 14 22:10:03 2021: parent pid: 11239
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:03 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:03 2021: argv[1]: <-c>
+Thu Jan 14 22:10:03 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:03 2021: argv[3]: <-o>
+Thu Jan 14 22:10:03 2021: argv[4]: <main.o>
+Thu Jan 14 22:10:03 2021: argv[5]: <main.cpp>
+Thu Jan 14 22:10:03 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:03 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:03 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:03 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:03 2021: argv[10]: <-pthread>
+Thu Jan 14 22:10:03 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:03 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:03 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:03 2021: envp[3]: <ARCH=x86_64>
+Thu Jan 14 22:10:03 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:03 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:03 2021: envp[6]: <USER=pruiz>
+Thu Jan 14 22:10:03 2021: envp[7]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:03 2021: envp[8]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:03 2021: envp[9]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:03 2021: envp[10]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:03 2021: envp[11]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:03 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:03 2021: envp[13]: <SHLVL=1>
+Thu Jan 14 22:10:03 2021: envp[14]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:03 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:03 2021: envp[16]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:03 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:03 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:03 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:03 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:03 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:03 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:03 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:03 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:03 2021: envp[25]: <MAKEFLAGS=>
+Thu Jan 14 22:10:03 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:03 2021: envp[27]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:03 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:03 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:03 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:03 2021: envp[31]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:03 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:03 2021: envp[33]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:03 2021: envp[34]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:03 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:03 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:03 2021: envp[37]: <USERNAME=pruiz>
+Thu Jan 14 22:10:03 2021: envp[38]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:03 2021: envp[39]: <TERM=xterm-256color>
+Thu Jan 14 22:10:03 2021: envp[40]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:03 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:03 2021: envp[42]: <WINDOWPATH=2>
+Thu Jan 14 22:10:03 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:03 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:03 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:03 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:03 2021: envp[47]: <S_COLORS=auto>
+Thu Jan 14 22:10:03 2021: envp[48]: <MAKELEVEL=1>
+Thu Jan 14 22:10:03 2021: envp[49]: <DISPLAY=:0>
+Thu Jan 14 22:10:03 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:03 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:03 2021: envp[52]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:03 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:03 2021: envp[54]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:03 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:03 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:03 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:03 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:03 2021: envp[59]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:03 2021: envp[60]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:03 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:03 2021: envp[62]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:03 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:03 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:03 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:03 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:03 2021: envp[67]: <XDG_VTNR=2>
+Thu Jan 14 22:10:03 2021: envp[68]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:03 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:03 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:03 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:03 2021: envp[73]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:03 2021: envp[74]: <MFLAGS=>
+Thu Jan 14 22:10:03 2021: envp[75]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:03 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:03 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:03 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:03 2021: process created with pid: 11241
+Thu Jan 14 22:10:03 2021: parent pid: 11240
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:03 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:03 2021: argv[1]: <-quiet>
+Thu Jan 14 22:10:03 2021: argv[2]: <-I>
+Thu Jan 14 22:10:03 2021: argv[3]: <.>
+Thu Jan 14 22:10:03 2021: argv[4]: <-I>
+Thu Jan 14 22:10:03 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:03 2021: argv[6]: <-I>
+Thu Jan 14 22:10:03 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:03 2021: argv[8]: <-I>
+Thu Jan 14 22:10:03 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:03 2021: argv[10]: <-I>
+Thu Jan 14 22:10:03 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:03 2021: argv[12]: <-imultiarch>
+Thu Jan 14 22:10:03 2021: argv[13]: <x86_64-linux-gnu>
+Thu Jan 14 22:10:03 2021: argv[14]: <-D_GNU_SOURCE>
+Thu Jan 14 22:10:03 2021: argv[15]: <-D_REENTRANT>
+Thu Jan 14 22:10:03 2021: argv[16]: <main.cpp>
+Thu Jan 14 22:10:03 2021: argv[17]: <-quiet>
+Thu Jan 14 22:10:03 2021: argv[18]: <-dumpbase>
+Thu Jan 14 22:10:03 2021: argv[19]: <main.cpp>
+Thu Jan 14 22:10:03 2021: argv[20]: <-mtune=generic>
+Thu Jan 14 22:10:03 2021: argv[21]: <-march=x86-64>
+Thu Jan 14 22:10:03 2021: argv[22]: <-auxbase-strip>
+Thu Jan 14 22:10:03 2021: argv[23]: <main.o>
+Thu Jan 14 22:10:03 2021: argv[24]: <-fstack-protector-strong>
+Thu Jan 14 22:10:03 2021: argv[25]: <-Wformat>
+Thu Jan 14 22:10:03 2021: argv[26]: <-Wformat-security>
+Thu Jan 14 22:10:03 2021: argv[27]: <-o>
+Thu Jan 14 22:10:03 2021: argv[28]: </tmp/cc1j7pfo.s>
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11241
+Thu Jan 14 22:10:03 2021: process created with pid: 11242
+Thu Jan 14 22:10:03 2021: parent pid: 11240
+Thu Jan 14 22:10:03 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:03 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Thu Jan 14 22:10:03 2021: argv[0]: <as>
+Thu Jan 14 22:10:03 2021: argv[1]: <-I>
+Thu Jan 14 22:10:03 2021: argv[2]: <.>
+Thu Jan 14 22:10:03 2021: argv[3]: <-I>
+Thu Jan 14 22:10:03 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:03 2021: argv[5]: <-I>
+Thu Jan 14 22:10:03 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:03 2021: argv[7]: <-I>
+Thu Jan 14 22:10:03 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:03 2021: argv[9]: <-I>
+Thu Jan 14 22:10:03 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:03 2021: argv[11]: <--64>
+Thu Jan 14 22:10:03 2021: argv[12]: <-o>
+Thu Jan 14 22:10:03 2021: argv[13]: <main.o>
+Thu Jan 14 22:10:03 2021: argv[14]: </tmp/cc1j7pfo.s>
+Thu Jan 14 22:10:03 2021: skipping process with pid: 11242
+Thu Jan 14 22:10:04 2021: process created with pid: 11248
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <echo "Linking complete!">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11248
+Thu Jan 14 22:10:04 2021: process created with pid: 11250
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <mpiCC -c -I.  -o "raid.o" "raid.cpp">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11250
+Thu Jan 14 22:10:04 2021: process created with pid: 11253
+Thu Jan 14 22:10:04 2021: parent pid: 11250
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:04 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <raid.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <raid.cpp>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11253
+Thu Jan 14 22:10:04 2021: process created with pid: 11254
+Thu Jan 14 22:10:04 2021: parent pid: 11253
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <raid.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <raid.cpp>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-pthread>
+Thu Jan 14 22:10:04 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:04 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:04 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:04 2021: envp[3]: <ARCH=x86_64>
+Thu Jan 14 22:10:04 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:04 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:04 2021: envp[6]: <USER=pruiz>
+Thu Jan 14 22:10:04 2021: envp[7]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:04 2021: envp[8]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:04 2021: envp[9]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:04 2021: envp[10]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:04 2021: envp[11]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:04 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:04 2021: envp[13]: <SHLVL=1>
+Thu Jan 14 22:10:04 2021: envp[14]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:04 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:04 2021: envp[16]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:04 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:04 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:04 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:04 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:04 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:04 2021: envp[25]: <MAKEFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:04 2021: envp[27]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:04 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:04 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:04 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[31]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:04 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:04 2021: envp[33]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[34]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:04 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:04 2021: envp[37]: <USERNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[38]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:04 2021: envp[39]: <TERM=xterm-256color>
+Thu Jan 14 22:10:04 2021: envp[40]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:04 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:04 2021: envp[42]: <WINDOWPATH=2>
+Thu Jan 14 22:10:04 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:04 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:04 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:04 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:04 2021: envp[47]: <S_COLORS=auto>
+Thu Jan 14 22:10:04 2021: envp[48]: <MAKELEVEL=1>
+Thu Jan 14 22:10:04 2021: envp[49]: <DISPLAY=:0>
+Thu Jan 14 22:10:04 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:04 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:04 2021: envp[52]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:04 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:04 2021: envp[54]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:04 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:04 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:04 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:04 2021: envp[59]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:04 2021: envp[60]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[62]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:04 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:04 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:04 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:04 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:04 2021: envp[67]: <XDG_VTNR=2>
+Thu Jan 14 22:10:04 2021: envp[68]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:04 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:04 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[73]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:04 2021: envp[74]: <MFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[75]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:04 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:04 2021: process created with pid: 11255
+Thu Jan 14 22:10:04 2021: parent pid: 11254
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[1]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I>
+Thu Jan 14 22:10:04 2021: argv[3]: <.>
+Thu Jan 14 22:10:04 2021: argv[4]: <-I>
+Thu Jan 14 22:10:04 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I>
+Thu Jan 14 22:10:04 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I>
+Thu Jan 14 22:10:04 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-I>
+Thu Jan 14 22:10:04 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[12]: <-imultiarch>
+Thu Jan 14 22:10:04 2021: argv[13]: <x86_64-linux-gnu>
+Thu Jan 14 22:10:04 2021: argv[14]: <-D_GNU_SOURCE>
+Thu Jan 14 22:10:04 2021: argv[15]: <-D_REENTRANT>
+Thu Jan 14 22:10:04 2021: argv[16]: <raid.cpp>
+Thu Jan 14 22:10:04 2021: argv[17]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[18]: <-dumpbase>
+Thu Jan 14 22:10:04 2021: argv[19]: <raid.cpp>
+Thu Jan 14 22:10:04 2021: argv[20]: <-mtune=generic>
+Thu Jan 14 22:10:04 2021: argv[21]: <-march=x86-64>
+Thu Jan 14 22:10:04 2021: argv[22]: <-auxbase-strip>
+Thu Jan 14 22:10:04 2021: argv[23]: <raid.o>
+Thu Jan 14 22:10:04 2021: argv[24]: <-fstack-protector-strong>
+Thu Jan 14 22:10:04 2021: argv[25]: <-Wformat>
+Thu Jan 14 22:10:04 2021: argv[26]: <-Wformat-security>
+Thu Jan 14 22:10:04 2021: argv[27]: <-o>
+Thu Jan 14 22:10:04 2021: argv[28]: </tmp/ccO2RnjK.s>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11255
+Thu Jan 14 22:10:04 2021: process created with pid: 11256
+Thu Jan 14 22:10:04 2021: parent pid: 11254
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Thu Jan 14 22:10:04 2021: argv[0]: <as>
+Thu Jan 14 22:10:04 2021: argv[1]: <-I>
+Thu Jan 14 22:10:04 2021: argv[2]: <.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-I>
+Thu Jan 14 22:10:04 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[5]: <-I>
+Thu Jan 14 22:10:04 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[7]: <-I>
+Thu Jan 14 22:10:04 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[9]: <-I>
+Thu Jan 14 22:10:04 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[11]: <--64>
+Thu Jan 14 22:10:04 2021: argv[12]: <-o>
+Thu Jan 14 22:10:04 2021: argv[13]: <raid.o>
+Thu Jan 14 22:10:04 2021: argv[14]: </tmp/ccO2RnjK.s>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11256
+Thu Jan 14 22:10:04 2021: process created with pid: 11257
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <echo "Linking complete!">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11257
+Thu Jan 14 22:10:04 2021: process created with pid: 11258
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <mpiCC -c -I.  -o "slave.o" "slave.cpp">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11258
+Thu Jan 14 22:10:04 2021: process created with pid: 11259
+Thu Jan 14 22:10:04 2021: parent pid: 11258
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:04 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <slave.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <slave.cpp>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11259
+Thu Jan 14 22:10:04 2021: process created with pid: 11260
+Thu Jan 14 22:10:04 2021: parent pid: 11259
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <slave.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <slave.cpp>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-pthread>
+Thu Jan 14 22:10:04 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:04 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:04 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:04 2021: envp[3]: <ARCH=x86_64>
+Thu Jan 14 22:10:04 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:04 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:04 2021: envp[6]: <USER=pruiz>
+Thu Jan 14 22:10:04 2021: envp[7]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:04 2021: envp[8]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:04 2021: envp[9]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:04 2021: envp[10]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:04 2021: envp[11]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:04 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:04 2021: envp[13]: <SHLVL=1>
+Thu Jan 14 22:10:04 2021: envp[14]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:04 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:04 2021: envp[16]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:04 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:04 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:04 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:04 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:04 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:04 2021: envp[25]: <MAKEFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:04 2021: envp[27]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:04 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:04 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:04 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[31]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:04 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:04 2021: envp[33]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[34]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:04 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:04 2021: envp[37]: <USERNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[38]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:04 2021: envp[39]: <TERM=xterm-256color>
+Thu Jan 14 22:10:04 2021: envp[40]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:04 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:04 2021: envp[42]: <WINDOWPATH=2>
+Thu Jan 14 22:10:04 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:04 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:04 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:04 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:04 2021: envp[47]: <S_COLORS=auto>
+Thu Jan 14 22:10:04 2021: envp[48]: <MAKELEVEL=1>
+Thu Jan 14 22:10:04 2021: envp[49]: <DISPLAY=:0>
+Thu Jan 14 22:10:04 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:04 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:04 2021: envp[52]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:04 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:04 2021: envp[54]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:04 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:04 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:04 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:04 2021: envp[59]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:04 2021: envp[60]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[62]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:04 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:04 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:04 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:04 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:04 2021: envp[67]: <XDG_VTNR=2>
+Thu Jan 14 22:10:04 2021: envp[68]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:04 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:04 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[73]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:04 2021: envp[74]: <MFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[75]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:04 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:04 2021: process created with pid: 11261
+Thu Jan 14 22:10:04 2021: parent pid: 11260
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[1]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I>
+Thu Jan 14 22:10:04 2021: argv[3]: <.>
+Thu Jan 14 22:10:04 2021: argv[4]: <-I>
+Thu Jan 14 22:10:04 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I>
+Thu Jan 14 22:10:04 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I>
+Thu Jan 14 22:10:04 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-I>
+Thu Jan 14 22:10:04 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[12]: <-imultiarch>
+Thu Jan 14 22:10:04 2021: argv[13]: <x86_64-linux-gnu>
+Thu Jan 14 22:10:04 2021: argv[14]: <-D_GNU_SOURCE>
+Thu Jan 14 22:10:04 2021: argv[15]: <-D_REENTRANT>
+Thu Jan 14 22:10:04 2021: argv[16]: <slave.cpp>
+Thu Jan 14 22:10:04 2021: argv[17]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[18]: <-dumpbase>
+Thu Jan 14 22:10:04 2021: argv[19]: <slave.cpp>
+Thu Jan 14 22:10:04 2021: argv[20]: <-mtune=generic>
+Thu Jan 14 22:10:04 2021: argv[21]: <-march=x86-64>
+Thu Jan 14 22:10:04 2021: argv[22]: <-auxbase-strip>
+Thu Jan 14 22:10:04 2021: argv[23]: <slave.o>
+Thu Jan 14 22:10:04 2021: argv[24]: <-fstack-protector-strong>
+Thu Jan 14 22:10:04 2021: argv[25]: <-Wformat>
+Thu Jan 14 22:10:04 2021: argv[26]: <-Wformat-security>
+Thu Jan 14 22:10:04 2021: argv[27]: <-o>
+Thu Jan 14 22:10:04 2021: argv[28]: </tmp/ccEuWxTf.s>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11261
+Thu Jan 14 22:10:04 2021: process created with pid: 11264
+Thu Jan 14 22:10:04 2021: parent pid: 11260
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Thu Jan 14 22:10:04 2021: argv[0]: <as>
+Thu Jan 14 22:10:04 2021: argv[1]: <-I>
+Thu Jan 14 22:10:04 2021: argv[2]: <.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-I>
+Thu Jan 14 22:10:04 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[5]: <-I>
+Thu Jan 14 22:10:04 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[7]: <-I>
+Thu Jan 14 22:10:04 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[9]: <-I>
+Thu Jan 14 22:10:04 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[11]: <--64>
+Thu Jan 14 22:10:04 2021: argv[12]: <-o>
+Thu Jan 14 22:10:04 2021: argv[13]: <slave.o>
+Thu Jan 14 22:10:04 2021: argv[14]: </tmp/ccEuWxTf.s>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11264
+Thu Jan 14 22:10:04 2021: process created with pid: 11265
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <echo "Linking complete!">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11265
+Thu Jan 14 22:10:04 2021: process created with pid: 11266
+Thu Jan 14 22:10:04 2021: parent pid: 11227
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </bin/dash>
+Thu Jan 14 22:10:04 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <mpiCC -c -I.  -o "terminal.o" "terminal.cpp">
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11266
+Thu Jan 14 22:10:04 2021: process created with pid: 11267
+Thu Jan 14 22:10:04 2021: parent pid: 11266
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:04 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <terminal.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <terminal.cpp>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11267
+Thu Jan 14 22:10:04 2021: process created with pid: 11268
+Thu Jan 14 22:10:04 2021: parent pid: 11267
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:04 2021: argv[1]: <-c>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I.>
+Thu Jan 14 22:10:04 2021: argv[3]: <-o>
+Thu Jan 14 22:10:04 2021: argv[4]: <terminal.o>
+Thu Jan 14 22:10:04 2021: argv[5]: <terminal.cpp>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[7]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-pthread>
+Thu Jan 14 22:10:04 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:04 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:04 2021: envp[2]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:04 2021: envp[3]: <ARCH=x86_64>
+Thu Jan 14 22:10:04 2021: envp[4]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:04 2021: envp[5]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:04 2021: envp[6]: <USER=pruiz>
+Thu Jan 14 22:10:04 2021: envp[7]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:04 2021: envp[8]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:04 2021: envp[9]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:04 2021: envp[10]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:04 2021: envp[11]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:04 2021: envp[12]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:04 2021: envp[13]: <SHLVL=1>
+Thu Jan 14 22:10:04 2021: envp[14]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:04 2021: envp[15]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:04 2021: envp[16]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[17]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[18]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:04 2021: envp[19]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:04 2021: envp[20]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:04 2021: envp[21]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:04 2021: envp[22]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[23]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:04 2021: envp[24]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:04 2021: envp[25]: <MAKEFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[26]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:04 2021: envp[27]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:04 2021: envp[28]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:04 2021: envp[29]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:04 2021: envp[30]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[31]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:04 2021: envp[32]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:04 2021: envp[33]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[34]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[35]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:04 2021: envp[36]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:04 2021: envp[37]: <USERNAME=pruiz>
+Thu Jan 14 22:10:04 2021: envp[38]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:04 2021: envp[39]: <TERM=xterm-256color>
+Thu Jan 14 22:10:04 2021: envp[40]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:04 2021: envp[41]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:04 2021: envp[42]: <WINDOWPATH=2>
+Thu Jan 14 22:10:04 2021: envp[43]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:04 2021: envp[44]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:04 2021: envp[45]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:04 2021: envp[46]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:04 2021: envp[47]: <S_COLORS=auto>
+Thu Jan 14 22:10:04 2021: envp[48]: <MAKELEVEL=1>
+Thu Jan 14 22:10:04 2021: envp[49]: <DISPLAY=:0>
+Thu Jan 14 22:10:04 2021: envp[50]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:04 2021: envp[51]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:04 2021: envp[52]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:04 2021: envp[53]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:04 2021: envp[54]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:04 2021: envp[55]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:04 2021: envp[56]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[57]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:04 2021: envp[58]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:04 2021: envp[59]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:04 2021: envp[60]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:04 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:04 2021: envp[62]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:04 2021: envp[63]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:04 2021: envp[64]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:04 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:04 2021: envp[66]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:04 2021: envp[67]: <XDG_VTNR=2>
+Thu Jan 14 22:10:04 2021: envp[68]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:04 2021: envp[69]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: envp[70]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:04 2021: envp[71]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:04 2021: envp[72]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:04 2021: envp[73]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:04 2021: envp[74]: <MFLAGS=>
+Thu Jan 14 22:10:04 2021: envp[75]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:04 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:04 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:04 2021: process created with pid: 11269
+Thu Jan 14 22:10:04 2021: parent pid: 11268
+Thu Jan 14 22:10:04 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:04 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/cc1plus>
+Thu Jan 14 22:10:04 2021: argv[1]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[2]: <-I>
+Thu Jan 14 22:10:04 2021: argv[3]: <.>
+Thu Jan 14 22:10:04 2021: argv[4]: <-I>
+Thu Jan 14 22:10:04 2021: argv[5]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:04 2021: argv[6]: <-I>
+Thu Jan 14 22:10:04 2021: argv[7]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:04 2021: argv[8]: <-I>
+Thu Jan 14 22:10:04 2021: argv[9]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:04 2021: argv[10]: <-I>
+Thu Jan 14 22:10:04 2021: argv[11]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:04 2021: argv[12]: <-imultiarch>
+Thu Jan 14 22:10:04 2021: argv[13]: <x86_64-linux-gnu>
+Thu Jan 14 22:10:04 2021: argv[14]: <-D_GNU_SOURCE>
+Thu Jan 14 22:10:04 2021: argv[15]: <-D_REENTRANT>
+Thu Jan 14 22:10:04 2021: argv[16]: <terminal.cpp>
+Thu Jan 14 22:10:04 2021: argv[17]: <-quiet>
+Thu Jan 14 22:10:04 2021: argv[18]: <-dumpbase>
+Thu Jan 14 22:10:04 2021: argv[19]: <terminal.cpp>
+Thu Jan 14 22:10:04 2021: argv[20]: <-mtune=generic>
+Thu Jan 14 22:10:04 2021: argv[21]: <-march=x86-64>
+Thu Jan 14 22:10:04 2021: argv[22]: <-auxbase-strip>
+Thu Jan 14 22:10:04 2021: argv[23]: <terminal.o>
+Thu Jan 14 22:10:04 2021: argv[24]: <-fstack-protector-strong>
+Thu Jan 14 22:10:04 2021: argv[25]: <-Wformat>
+Thu Jan 14 22:10:04 2021: argv[26]: <-Wformat-security>
+Thu Jan 14 22:10:04 2021: argv[27]: <-o>
+Thu Jan 14 22:10:04 2021: argv[28]: </tmp/ccOcLlIF.s>
+Thu Jan 14 22:10:04 2021: skipping process with pid: 11269
+Thu Jan 14 22:10:05 2021: process created with pid: 11270
+Thu Jan 14 22:10:05 2021: parent pid: 11268
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </usr/bin/x86_64-linux-gnu-as>
+Thu Jan 14 22:10:05 2021: argv[0]: <as>
+Thu Jan 14 22:10:05 2021: argv[1]: <-I>
+Thu Jan 14 22:10:05 2021: argv[2]: <.>
+Thu Jan 14 22:10:05 2021: argv[3]: <-I>
+Thu Jan 14 22:10:05 2021: argv[4]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:05 2021: argv[5]: <-I>
+Thu Jan 14 22:10:05 2021: argv[6]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:05 2021: argv[7]: <-I>
+Thu Jan 14 22:10:05 2021: argv[8]: </usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:05 2021: argv[9]: <-I>
+Thu Jan 14 22:10:05 2021: argv[10]: </usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:05 2021: argv[11]: <--64>
+Thu Jan 14 22:10:05 2021: argv[12]: <-o>
+Thu Jan 14 22:10:05 2021: argv[13]: <terminal.o>
+Thu Jan 14 22:10:05 2021: argv[14]: </tmp/ccOcLlIF.s>
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11270
+Thu Jan 14 22:10:05 2021: process created with pid: 11271
+Thu Jan 14 22:10:05 2021: parent pid: 11227
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </bin/dash>
+Thu Jan 14 22:10:05 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:05 2021: argv[1]: <-c>
+Thu Jan 14 22:10:05 2021: argv[2]: <echo "Linking complete!">
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11271
+Thu Jan 14 22:10:05 2021: process created with pid: 11272
+Thu Jan 14 22:10:05 2021: parent pid: 11227
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </usr/bin/opal_wrapper>
+Thu Jan 14 22:10:05 2021: argv[0]: <mpiCC>
+Thu Jan 14 22:10:05 2021: argv[1]: <arbol.o>
+Thu Jan 14 22:10:05 2021: argv[2]: <main.o>
+Thu Jan 14 22:10:05 2021: argv[3]: <raid.o>
+Thu Jan 14 22:10:05 2021: argv[4]: <slave.o>
+Thu Jan 14 22:10:05 2021: argv[5]: <terminal.o>
+Thu Jan 14 22:10:05 2021: argv[6]: <-o>
+Thu Jan 14 22:10:05 2021: argv[7]: <mpiDisc>
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11272
+Thu Jan 14 22:10:05 2021: process created with pid: 11273
+Thu Jan 14 22:10:05 2021: parent pid: 11272
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </usr/bin/x86_64-linux-gnu-g++-7>
+Thu Jan 14 22:10:05 2021: argv[0]: </usr/bin/g++>
+Thu Jan 14 22:10:05 2021: argv[1]: <arbol.o>
+Thu Jan 14 22:10:05 2021: argv[2]: <main.o>
+Thu Jan 14 22:10:05 2021: argv[3]: <raid.o>
+Thu Jan 14 22:10:05 2021: argv[4]: <slave.o>
+Thu Jan 14 22:10:05 2021: argv[5]: <terminal.o>
+Thu Jan 14 22:10:05 2021: argv[6]: <-o>
+Thu Jan 14 22:10:05 2021: argv[7]: <mpiDisc>
+Thu Jan 14 22:10:05 2021: argv[8]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi>
+Thu Jan 14 22:10:05 2021: argv[9]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent>
+Thu Jan 14 22:10:05 2021: argv[10]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include>
+Thu Jan 14 22:10:05 2021: argv[11]: <-I/usr/lib/x86_64-linux-gnu/openmpi/include>
+Thu Jan 14 22:10:05 2021: argv[12]: <-pthread>
+Thu Jan 14 22:10:05 2021: argv[13]: <-L/usr//lib>
+Thu Jan 14 22:10:05 2021: argv[14]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
+Thu Jan 14 22:10:05 2021: argv[15]: <-lmpi_cxx>
+Thu Jan 14 22:10:05 2021: argv[16]: <-lmpi>
+Thu Jan 14 22:10:05 2021: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.VKnkZK>
+Thu Jan 14 22:10:05 2021: envp[1]: <SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Thu Jan 14 22:10:05 2021: envp[2]: <DESKTOP_SESSION=ubuntu>
+Thu Jan 14 22:10:05 2021: envp[3]: <XDG_SESSION_TYPE=x11>
+Thu Jan 14 22:10:05 2021: envp[4]: <NVM_INC=/home/pruiz/.nvm/versions/node/v13.14.0/include/node>
+Thu Jan 14 22:10:05 2021: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Thu Jan 14 22:10:05 2021: envp[6]: <GDMSESSION=ubuntu>
+Thu Jan 14 22:10:05 2021: envp[7]: <XMODIFIERS=@im=ibus>
+Thu Jan 14 22:10:05 2021: envp[8]: <RBENV_SHELL=bash>
+Thu Jan 14 22:10:05 2021: envp[9]: <VTE_VERSION=5202>
+Thu Jan 14 22:10:05 2021: envp[10]: <_=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Thu Jan 14 22:10:05 2021: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Thu Jan 14 22:10:05 2021: envp[12]: <IM_CONFIG_PHASE=2>
+Thu Jan 14 22:10:05 2021: envp[13]: <USERNAME=pruiz>
+Thu Jan 14 22:10:05 2021: envp[14]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Thu Jan 14 22:10:05 2021: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Thu Jan 14 22:10:05 2021: envp[16]: <TERMINATOR_UUID=urn:uuid:87e7b1b6-5e39-4a5d-a314-492c529e6ffd>
+Thu Jan 14 22:10:05 2021: envp[17]: <CLUTTER_IM_MODULE=xim>
+Thu Jan 14 22:10:05 2021: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Thu Jan 14 22:10:05 2021: envp[19]: <PATH=/home/pruiz/.nvm/versions/node/v13.14.0/bin:/home/pruiz/.local/bin:/home/pruiz/Escritorio/tools/swigtool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/pruiz/go/bin:/home/pruiz/.local/bin:/home/pruiz/.local/bin:/usr/lib/postgresql/10/bin:/home/pruiz/Escritorio/tools/sonar-scanner-4.5.0.2216-linux/bin:/home/pruiz/Escritorio/tools/build-wrapper-linux-x86>
+Thu Jan 14 22:10:05 2021: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Thu Jan 14 22:10:05 2021: envp[21]: <SESSION_MANAGER=local/pruiz:@/tmp/.ICE-unix/2824,unix/pruiz:/tmp/.ICE-unix/2824>
+Thu Jan 14 22:10:05 2021: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Thu Jan 14 22:10:05 2021: envp[23]: <TEXTDOMAIN=im-config>
+Thu Jan 14 22:10:05 2021: envp[24]: <NVM_BIN=/home/pruiz/.nvm/versions/node/v13.14.0/bin>
+Thu Jan 14 22:10:05 2021: envp[25]: <SWIG_PATH=/home/pruiz/Escritorio/tools/swigtool/bin>
+Thu Jan 14 22:10:05 2021: envp[26]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Thu Jan 14 22:10:05 2021: envp[27]: <XDG_SESSION_DESKTOP=ubuntu>
+Thu Jan 14 22:10:05 2021: envp[28]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Thu Jan 14 22:10:05 2021: envp[29]: <GIO_LAUNCHED_DESKTOP_FILE_PID=7355>
+Thu Jan 14 22:10:05 2021: envp[30]: <DISPLAY=:0>
+Thu Jan 14 22:10:05 2021: envp[31]: <XDG_MENU_PREFIX=gnome->
+Thu Jan 14 22:10:05 2021: envp[32]: <GTK_IM_MODULE=ibus>
+Thu Jan 14 22:10:05 2021: envp[33]: <HOME=/home/pruiz>
+Thu Jan 14 22:10:05 2021: envp[34]: <PWD=/tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: envp[35]: <XDG_SEAT=seat0>
+Thu Jan 14 22:10:05 2021: envp[36]: <SSH_AGENT_PID=2920>
+Thu Jan 14 22:10:05 2021: envp[37]: <GTK_MODULES=gail:atk-bridge>
+Thu Jan 14 22:10:05 2021: envp[38]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus>
+Thu Jan 14 22:10:05 2021: envp[39]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Thu Jan 14 22:10:05 2021: envp[40]: <LOGNAME=pruiz>
+Thu Jan 14 22:10:05 2021: envp[41]: <GO_PATH=/usr/local/go/bin>
+Thu Jan 14 22:10:05 2021: envp[42]: <NVM_CD_FLAGS=>
+Thu Jan 14 22:10:05 2021: envp[43]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Thu Jan 14 22:10:05 2021: envp[44]: <XDG_VTNR=2>
+Thu Jan 14 22:10:05 2021: envp[45]: <COLORTERM=truecolor>
+Thu Jan 14 22:10:05 2021: envp[46]: <QT_IM_MODULE=ibus>
+Thu Jan 14 22:10:05 2021: envp[47]: <SHLVL=1>
+Thu Jan 14 22:10:05 2021: envp[48]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Thu Jan 14 22:10:05 2021: envp[49]: <XDG_SESSION_ID=4>
+Thu Jan 14 22:10:05 2021: envp[50]: <USER=pruiz>
+Thu Jan 14 22:10:05 2021: envp[51]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Thu Jan 14 22:10:05 2021: envp[52]: <OLDPWD=/tmp/Distributed_Systems/build_wrapper_output_directory>
+Thu Jan 14 22:10:05 2021: envp[53]: <TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2>
+Thu Jan 14 22:10:05 2021: envp[54]: <LANGUAGE=es_ES:>
+Thu Jan 14 22:10:05 2021: envp[55]: <ARCH=x86_64>
+Thu Jan 14 22:10:05 2021: envp[56]: <MAKEFLAGS=>
+Thu Jan 14 22:10:05 2021: envp[57]: <MFLAGS=>
+Thu Jan 14 22:10:05 2021: envp[58]: <NVM_DIR=/home/pruiz/.nvm>
+Thu Jan 14 22:10:05 2021: envp[59]: <CODECOV_TOKEN=20645c6e-30d7-4f3f-8ce1-20107c1cb6e2>
+Thu Jan 14 22:10:05 2021: envp[60]: <SHELL=/bin/bash>
+Thu Jan 14 22:10:05 2021: envp[61]: <MAKE_TERMOUT=/dev/pts/2>
+Thu Jan 14 22:10:05 2021: envp[62]: <S_COLORS=auto>
+Thu Jan 14 22:10:05 2021: envp[63]: <QT_ACCESSIBILITY=1>
+Thu Jan 14 22:10:05 2021: envp[64]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Thu Jan 14 22:10:05 2021: envp[65]: <TEXTDOMAINDIR=/usr/share/locale/>
+Thu Jan 14 22:10:05 2021: envp[66]: <QT4_IM_MODULE=xim>
+Thu Jan 14 22:10:05 2021: envp[67]: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Thu Jan 14 22:10:05 2021: envp[68]: <WINDOWPATH=2>
+Thu Jan 14 22:10:05 2021: envp[69]: <GJS_DEBUG_OUTPUT=stderr>
+Thu Jan 14 22:10:05 2021: envp[70]: <MAKE_TERMERR=/dev/pts/2>
+Thu Jan 14 22:10:05 2021: envp[71]: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Thu Jan 14 22:10:05 2021: envp[72]: <LANG=es_ES.UTF-8>
+Thu Jan 14 22:10:05 2021: envp[73]: <TERM=xterm-256color>
+Thu Jan 14 22:10:05 2021: envp[74]: <TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c>
+Thu Jan 14 22:10:05 2021: envp[75]: <MAKELEVEL=1>
+Thu Jan 14 22:10:05 2021: envp[76]: <IPATH_NO_BACKTRACE=1>
+Thu Jan 14 22:10:05 2021: envp[77]: <HFI_NO_BACKTRACE=1>
+Thu Jan 14 22:10:05 2021: envp[78]: <LD_PRELOAD=>
+Thu Jan 14 22:10:05 2021: process created with pid: 11274
+Thu Jan 14 22:10:05 2021: parent pid: 11273
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </usr/lib/gcc/x86_64-linux-gnu/7/collect2>
+Thu Jan 14 22:10:05 2021: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/7/collect2>
+Thu Jan 14 22:10:05 2021: argv[1]: <-plugin>
+Thu Jan 14 22:10:05 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so>
+Thu Jan 14 22:10:05 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper>
+Thu Jan 14 22:10:05 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccWL0VL6.res>
+Thu Jan 14 22:10:05 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Thu Jan 14 22:10:05 2021: argv[7]: <-plugin-opt=-pass-through=-lpthread>
+Thu Jan 14 22:10:05 2021: argv[8]: <-plugin-opt=-pass-through=-lc>
+Thu Jan 14 22:10:05 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[10]: <-plugin-opt=-pass-through=-lgcc>
+Thu Jan 14 22:10:05 2021: argv[11]: <--build-id>
+Thu Jan 14 22:10:05 2021: argv[12]: <--eh-frame-hdr>
+Thu Jan 14 22:10:05 2021: argv[13]: <-m>
+Thu Jan 14 22:10:05 2021: argv[14]: <elf_x86_64>
+Thu Jan 14 22:10:05 2021: argv[15]: <--hash-style=gnu>
+Thu Jan 14 22:10:05 2021: argv[16]: <--as-needed>
+Thu Jan 14 22:10:05 2021: argv[17]: <-dynamic-linker>
+Thu Jan 14 22:10:05 2021: argv[18]: </lib64/ld-linux-x86-64.so.2>
+Thu Jan 14 22:10:05 2021: argv[19]: <-pie>
+Thu Jan 14 22:10:05 2021: argv[20]: <-z>
+Thu Jan 14 22:10:05 2021: argv[21]: <now>
+Thu Jan 14 22:10:05 2021: argv[22]: <-z>
+Thu Jan 14 22:10:05 2021: argv[23]: <relro>
+Thu Jan 14 22:10:05 2021: argv[24]: <-o>
+Thu Jan 14 22:10:05 2021: argv[25]: <mpiDisc>
+Thu Jan 14 22:10:05 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o>
+Thu Jan 14 22:10:05 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o>
+Thu Jan 14 22:10:05 2021: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o>
+Thu Jan 14 22:10:05 2021: argv[29]: <-L/usr//lib>
+Thu Jan 14 22:10:05 2021: argv[30]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
+Thu Jan 14 22:10:05 2021: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/7>
+Thu Jan 14 22:10:05 2021: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[33]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib>
+Thu Jan 14 22:10:05 2021: argv[34]: <-L/lib/x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[35]: <-L/lib/../lib>
+Thu Jan 14 22:10:05 2021: argv[36]: <-L/usr/lib/x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[37]: <-L/usr/lib/../lib>
+Thu Jan 14 22:10:05 2021: argv[38]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..>
+Thu Jan 14 22:10:05 2021: argv[39]: <arbol.o>
+Thu Jan 14 22:10:05 2021: argv[40]: <main.o>
+Thu Jan 14 22:10:05 2021: argv[41]: <raid.o>
+Thu Jan 14 22:10:05 2021: argv[42]: <slave.o>
+Thu Jan 14 22:10:05 2021: argv[43]: <terminal.o>
+Thu Jan 14 22:10:05 2021: argv[44]: <-lmpi_cxx>
+Thu Jan 14 22:10:05 2021: argv[45]: <-lmpi>
+Thu Jan 14 22:10:05 2021: argv[46]: <-lstdc++>
+Thu Jan 14 22:10:05 2021: argv[47]: <-lm>
+Thu Jan 14 22:10:05 2021: argv[48]: <-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[49]: <-lgcc>
+Thu Jan 14 22:10:05 2021: argv[50]: <-lpthread>
+Thu Jan 14 22:10:05 2021: argv[51]: <-lc>
+Thu Jan 14 22:10:05 2021: argv[52]: <-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[53]: <-lgcc>
+Thu Jan 14 22:10:05 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o>
+Thu Jan 14 22:10:05 2021: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o>
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11274
+Thu Jan 14 22:10:05 2021: process created with pid: 11275
+Thu Jan 14 22:10:05 2021: parent pid: 11274
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Thu Jan 14 22:10:05 2021: argv[0]: </usr/bin/ld>
+Thu Jan 14 22:10:05 2021: argv[1]: <-plugin>
+Thu Jan 14 22:10:05 2021: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so>
+Thu Jan 14 22:10:05 2021: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper>
+Thu Jan 14 22:10:05 2021: argv[4]: <-plugin-opt=-fresolution=/tmp/ccWL0VL6.res>
+Thu Jan 14 22:10:05 2021: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Thu Jan 14 22:10:05 2021: argv[7]: <-plugin-opt=-pass-through=-lpthread>
+Thu Jan 14 22:10:05 2021: argv[8]: <-plugin-opt=-pass-through=-lc>
+Thu Jan 14 22:10:05 2021: argv[9]: <-plugin-opt=-pass-through=-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[10]: <-plugin-opt=-pass-through=-lgcc>
+Thu Jan 14 22:10:05 2021: argv[11]: <--build-id>
+Thu Jan 14 22:10:05 2021: argv[12]: <--eh-frame-hdr>
+Thu Jan 14 22:10:05 2021: argv[13]: <-m>
+Thu Jan 14 22:10:05 2021: argv[14]: <elf_x86_64>
+Thu Jan 14 22:10:05 2021: argv[15]: <--hash-style=gnu>
+Thu Jan 14 22:10:05 2021: argv[16]: <--as-needed>
+Thu Jan 14 22:10:05 2021: argv[17]: <-dynamic-linker>
+Thu Jan 14 22:10:05 2021: argv[18]: </lib64/ld-linux-x86-64.so.2>
+Thu Jan 14 22:10:05 2021: argv[19]: <-pie>
+Thu Jan 14 22:10:05 2021: argv[20]: <-z>
+Thu Jan 14 22:10:05 2021: argv[21]: <now>
+Thu Jan 14 22:10:05 2021: argv[22]: <-z>
+Thu Jan 14 22:10:05 2021: argv[23]: <relro>
+Thu Jan 14 22:10:05 2021: argv[24]: <-o>
+Thu Jan 14 22:10:05 2021: argv[25]: <mpiDisc>
+Thu Jan 14 22:10:05 2021: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o>
+Thu Jan 14 22:10:05 2021: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o>
+Thu Jan 14 22:10:05 2021: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o>
+Thu Jan 14 22:10:05 2021: argv[29]: <-L/usr//lib>
+Thu Jan 14 22:10:05 2021: argv[30]: <-L/usr/lib/x86_64-linux-gnu/openmpi/lib>
+Thu Jan 14 22:10:05 2021: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/7>
+Thu Jan 14 22:10:05 2021: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[33]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib>
+Thu Jan 14 22:10:05 2021: argv[34]: <-L/lib/x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[35]: <-L/lib/../lib>
+Thu Jan 14 22:10:05 2021: argv[36]: <-L/usr/lib/x86_64-linux-gnu>
+Thu Jan 14 22:10:05 2021: argv[37]: <-L/usr/lib/../lib>
+Thu Jan 14 22:10:05 2021: argv[38]: <-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..>
+Thu Jan 14 22:10:05 2021: argv[39]: <arbol.o>
+Thu Jan 14 22:10:05 2021: argv[40]: <main.o>
+Thu Jan 14 22:10:05 2021: argv[41]: <raid.o>
+Thu Jan 14 22:10:05 2021: argv[42]: <slave.o>
+Thu Jan 14 22:10:05 2021: argv[43]: <terminal.o>
+Thu Jan 14 22:10:05 2021: argv[44]: <-lmpi_cxx>
+Thu Jan 14 22:10:05 2021: argv[45]: <-lmpi>
+Thu Jan 14 22:10:05 2021: argv[46]: <-lstdc++>
+Thu Jan 14 22:10:05 2021: argv[47]: <-lm>
+Thu Jan 14 22:10:05 2021: argv[48]: <-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[49]: <-lgcc>
+Thu Jan 14 22:10:05 2021: argv[50]: <-lpthread>
+Thu Jan 14 22:10:05 2021: argv[51]: <-lc>
+Thu Jan 14 22:10:05 2021: argv[52]: <-lgcc_s>
+Thu Jan 14 22:10:05 2021: argv[53]: <-lgcc>
+Thu Jan 14 22:10:05 2021: argv[54]: </usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o>
+Thu Jan 14 22:10:05 2021: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o>
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11275
+Thu Jan 14 22:10:05 2021: process created with pid: 11276
+Thu Jan 14 22:10:05 2021: parent pid: 11227
+Thu Jan 14 22:10:05 2021: working directory: </tmp/Distributed_Systems>
+Thu Jan 14 22:10:05 2021: executable: </bin/dash>
+Thu Jan 14 22:10:05 2021: argv[0]: </bin/sh>
+Thu Jan 14 22:10:05 2021: argv[1]: <-c>
+Thu Jan 14 22:10:05 2021: argv[2]: <echo "Compilation complete!">
+Thu Jan 14 22:10:05 2021: skipping process with pid: 11276
+Thu Jan 14 22:10:05 2021: finalizing json file
+Thu Jan 14 22:10:05 2021: returned with code: 0
