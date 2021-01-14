@@ -20,8 +20,8 @@ jobs:
       - run:
           name: Clean Workspace and build artifacts
           command: |
-            'make clean'
-            'make'           
+            make clean
+            make           
       - sonarcloud/scan
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.2
