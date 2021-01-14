@@ -12,6 +12,9 @@ jobs:
           name: Installing GCC
           command: 'apt-get update && apt-get install -y gcc g++'
       - run:
+          name: Installing MPI libraries
+          command: 'sudo apt-get install openmpi-bin openmpi-common openssh-client openssh-server libopenmpi1.3 libopenmpi-dbg libopenmpi-dev'
+      - run:
           name: Installing Make
           command: 'apt-get update && apt-get install -y make'
       - run:
