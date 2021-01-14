@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: 'debian:latest'
+      - image: 'debian:stretch'
     steps:
       - checkout
       - run:
