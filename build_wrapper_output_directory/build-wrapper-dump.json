@@ -1,4 +1,4 @@
-# (C) SonarSource SA, 2014-2020, info@sonarsource.com
+# (C) SonarSource SA, 2014-2021, info@sonarsource.com
 # All SONARSOURCE programs and content are copyright protected.
 # SONARSOURCE and SONARQUBE are trademarks of SonarSource SA. All rights are expressly reserved.
 #
@@ -6,7 +6,7 @@
 # It may not be used in connection with any other software.
 # Any other use is prohibited by law and may be grounds for immediate termination of your License.
 {
-"version":"6.15",
+"version":"6.16",
 "captures":[
 {
 "compiler":"clang",
@@ -35,7 +35,7 @@
 "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 "-pthread"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "LESSOPEN=| /usr/bin/lesspipe %s",
 "ARCH=x86_64",
@@ -131,7 +131,7 @@
 "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 "-pthread"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "LESSOPEN=| /usr/bin/lesspipe %s",
 "ARCH=x86_64",
@@ -227,7 +227,7 @@
 "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 "-pthread"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "LESSOPEN=| /usr/bin/lesspipe %s",
 "ARCH=x86_64",
@@ -323,7 +323,7 @@
 "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 "-pthread"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "LESSOPEN=| /usr/bin/lesspipe %s",
 "ARCH=x86_64",
@@ -419,7 +419,7 @@
 "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 "-pthread"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "LESSOPEN=| /usr/bin/lesspipe %s",
 "ARCH=x86_64",
@@ -521,7 +521,7 @@
 "-lmpi_cxx",
 "-lmpi"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.C4rSZs",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.vbea61",
 "SQ_WRAPPER_LIBRARY=/home/pruiz/Escritorio/tools/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "DESKTOP_SESSION=ubuntu",
 "XDG_SESSION_TYPE=x11",
