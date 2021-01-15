@@ -9,7 +9,6 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Pitenager_Distributed_Systems&metric=sqale_index)](https://sonarcloud.io/dashboard?id=Pitenager_Distributed_Systems)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Pitenager_Distributed_Systems&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=Pitenager_Distributed_Systems)
 
-
 # Distributed_Systems
 
 Sistema de ficheros distribuido siguiendo una arquitectura
