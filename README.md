@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b5319b4439a4f3d97330fea00bd43ac)](https://app.codacy.com/gh/Pitenager/Distributed_Systems?utm_source=github.com&utm_medium=referral&utm_content=Pitenager/Distributed_Systems&utm_campaign=Badge_Grade)
 [![CircleCI](https://circleci.com/gh/Pitenager/Distributed_Systems.svg?style=shield)](https://circleci.com/gh/circleci/circleci-docs)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Pitenager_Distributed_Systems&metric=bugs)](https://sonarcloud.io/dashboard?id=Pitenager_Distributed_Systems)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Pitenager_Distributed_Systems&metric=code_smells)](https://sonarcloud.io/dashboard?id=Pitenager_Distributed_Systems)
