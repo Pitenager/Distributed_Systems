@@ -1,5 +1,5 @@
 CXX=mpiCC
-CXXFLAGS=-I.
+CXXFLAGS=-Wall -pedantic -I.
 EXEC=mpiDisc
 OBJS=arbol.o main.o raid.o slave.o terminal.o
 PROG=mpiDisc
