@@ -12,6 +12,7 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Pitenager/Distributed_Systems.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Pitenager/Distributed_Systems/alerts/)
 [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/Pitenager/Distributed_Systems.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Pitenager/Distributed_Systems/context:cpp)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b5319b4439a4f3d97330fea00bd43ac)](https://app.codacy.com/gh/Pitenager/Distributed_Systems?utm_source=github.com&utm_medium=referral&utm_content=Pitenager/Distributed_Systems&utm_campaign=Badge_Grade)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Pitenager/Distributed_Systems?branch=main&token=1520a2a2707849556ac494c0e7db83206eca3504)](https://bettercodehub.com/)
 
 # Distributed_Systems
 
